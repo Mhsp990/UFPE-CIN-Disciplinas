@@ -1,0 +1,127 @@
+L = [] #Lista vazia
+D = {} #Dicionario vazio
+T = (3,1,3) #Tupla não vazia. Tuplas são imutáveis.
+
+#LISTA
+#Lista podem ter elementos de tipos diferentes
+L = [0,0, "0", 1,0, True, 2<3, ['a', 'b','c']]
+
+Lista = ["maca", "laranja", "banana"]
+#Lista[0] é maça
+#Lista[-1] retorna o ULTIMO elemento, pois indices negativos pecorrem a lista de trás para frente.
+
+#len() retorna o tamanho do vetor
+len(Lista) #Retorna 3.
+
+#Append acrescenta um elemento no FINAL da lista (pilha)
+#Pop retorna E remove o último elemento da lista
+UltimaFruta = Lista.pop() #Ultima fruta == banana, enquanto que o elemento banana é removido.
+
+
+
+#FATIAMENTO / SLICE de Listas
+#Sintaxe : lista[inicio : fim]
+#Neste caso, ele COMEÇA do indice (inicio), mas só vai até (fim-1).
+#Alem disso, é NÃO DESTRUTIVO, o que significa que o retorno é uma "CÓPIA".
+#Ou seja, o vetor inicial não é alterado.
+frutas = ["maca", "laranja", "banana", "kiwi", "uva"]
+frutas[1:3] #Retorna ["laranja", "banana"]
+frutas[ : 2] #Retorna ["maca", "laranja"]. Omissão = começa do inicio
+frutas[2: ] #Retorna ["banana", "kiwi","uva"] #Começa do indice 2 e vai até o ultimo.
+
+#IMPORTANTE : Sobre referencia
+frutas[ : ] #Retorna a lista inteira. Como é uma cópia, é bastante útil para copiar a lista para outra variável
+outra_lista = frutas #outra_lista tem uma referencia ao vetor. Qualquer alteração afeta frutas
+outra_lista = frutas[:] #Copia apenas os elementos. Alterações em outra_lista não afeta a lista "frutas"
+
+
+#Listas podem conter diversos elementos, inclusive tuplas ou até mesmo, outras listas (lista de listas = matriz)
+#Lista de listas são matrizes, e podem ser acessadas da seguinte forma:
+vetor = [[1,2], [3,4]] 
+M[0] # Retorna [1,2]
+M[1] # Retorna [3,4]
+M[0][1] #Retorna 2
+
+#VER O MATERIAL DA AULA, TEM UMAS OPERAÇÕES 
+#Cuidado para nao criar listas iguais (passando referencia), pois uma alteracao afeta a outra.
+LINHA = [0,1,2,3,4,5,6,7,8,9]
+LADO_GRADE = 10
+vetor = [LINHA]*LADO_GRADE #Resulta em uma lista com 10 listas DEPENDENTES (apontam para LINHA)
+
+[0] * 5 # Resultado na lista com o elemento ZERO cinco vezes [0,0,0,0,0]
+[0 for i in range(5)] #Resulta em  [0,0,0,0,0]
+[i for i in range(5)] #Resulta em [0,1,2,3,4], pois esta usando o valor de i
+[i**2 for i in range(5)] # Resulta em [0,1,4,9,16], pois i^2
+#Ou seja, coloca o valor determinado no inicio (i**2) 5 vezes (i in range(5))
+
+
+[fruta.upper() for fruta in frutas] #Resulta em uma NOVA lista (copia), em que todas as frutas estão em maiusculo
+[fruta for fruta in frutas]
+
+#OBS : Uma string é uma lista IMUTÁVEL, mas é possível produzir uma
+nome = "Matheus"
+nome[0] = "M"
+nome[1] = "a"
+#OBS : Qualquer operação em strings criam novas strings (normalmente).
+
+#Cria uma nova lista 10 vezes. Estas listas são INDEPENDENTES entre si
+#No caso abaixo, cria uma lista (grade) contendo 10 listas independentes.
+LADO_GRADE = 10
+grade = [ [ 0] * LADO_GRADE for _ in range(LADO_GRADE)]  #O '_' significa que o i "não importa".
+
+
+# TUPLAS 
+#SÃO IMUTÁVEIS, diferentemente das listas. Ou seja, não é possível alterar os elementos.
+#Ótimas para guarda informações fixas.
+#Exemplos
+corRGB = (255,0,100)
+corRGB[0] #255
+corRGB[1] #0
+corRGB[2] #100
+corRGB[0] = 100 #Não pode, pois a tupla em si é IMUTÁVEL
+corRGB = (100,50,120) # Pode, pois está mudando a variável ( a variável corRGB aponta para uma nova tupla)
+
+posicao = (3,7) #Atribui uma TUPLA para posicao. DUVIDA : Pode alterar posicao com OUTRA trupla?
+px = posicao[0] #px = 3
+py = posicao[1] #py = 7
+
+dx, dy = posicao #dx = 3, dy = 7
+dx, dy = (2,4) #Pode fazer isso. Resulta em dx = 2, dy = 4.
+
+
+# DICIONARIOS
+#Usam "{ }"
+#Não tem ordem. Ou seja, a ordem nao é garantida. A busca é feita por chaves.
+#Neste caso, use as chaves, que são strings, como indices.
+
+#Dicionarios podem resultar em error para chaves (similar a indices) invalidos
+#Para evitar, use o metodo .get()
+pontuacao = {"Pedro" : 12, "Cesar" : 20, "Igor" : 30}
+pontuacao #Imprime {'Pedro' : 12, 'Cesar' : 20, 'Igor' : 30}
+pontuacao['Pedro'] # Retorna 12
+pontuacao['Igor'] #Retorna 30
+pontuacao['Nome inexistente'] #Resultam em Erro, pois a chave é invalida
+len(pontuacao) # Resulta em 3 (numero de chaves)
+pontuacao.get("Pedro", 0) #Mesma coisa de pontuacao['Pedro'], mas resulta em 0 caso seja uma chave INVALIDA
+
+
+for n in pontuacao:
+    print(n)
+    #Printa as CHAVES
+    #Pedro
+    #Cesar
+    #Igor
+
+for nome, pts in pontuacao:
+    print(nome)
+    print(pts)
+#Pedro
+#15
+#Cesar
+#20
+#Igor
+#30
+
+
+#Dicionarios não tem APPEND.
+#Para criar um novo "elemento" : (Lembre-se, é desordenado)

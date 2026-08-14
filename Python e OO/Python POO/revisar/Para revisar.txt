@@ -1,0 +1,200 @@
+OBS : Ver sobre metodos magicos
+#pois acho que o professor pode pedir, por exemplo:
+#Questão que necessite usar o metodo magico de sorting ou ==
+#etc.
+
+Como criar uma classe
+
+#OBS : Não declare valores iniciais para listas, dicionarios, etc, pois se não as instancias
+#irão compartilhar o mesmo objeto para aquele atributo.
+#       Para variaveis imutaveis, não tem problema (strings, ints, floats, etc)
+
+#OBS 2 : Não é necessário declarar todos os atributos
+
+
+
+Manipulando a criação de objetos da classe
+class Robo: #OBSERVAÇÃO: Não se usa (), exceto para herdar de outra classe.
+
+    
+    LADO_GRADE = 10 #Atributo da CLASSE. Todos as instancias dessa classe possuem acesso.
+
+    __init__(self, x = 0, y =  0, lista_obstaculos = None):
+        self.x = x
+        self.y = y
+        self.lista_obstaculos = lista_obstaculos if lista_obstaculos is not None else []
+        
+        #Atributos que não fazem parte dos parametros do "construtor"
+        self.trajetoria = [(x,y)] #Adiciona a posição inicial como parte da trajetória
+        self.atributo_qualquer = "Qualquer coisa"
+        self.atributo_qualquer2 = [] 
+
+# OBS  : No caso anterior, a classe NÃO possui os atributos x, y , lista_obstaculos.
+#Quem possui é a instancia.
+#Ou seja, fazer robo1.x é válido, enquanto que Robo.x dá um erro, pois o atributo nao exista.
+
+
+ACESSAR ATRIBUTOS
+robo1.x #Acessa o atributo X do objeto robo1
+robo2.x #Acessa o atributo x do objeto robo2
+robo1.x = algo #Muda o atributo x do objeto robo1
+Robo.LADO_GRADE #Acessa o atributo DA CLASSE.
+Robo.LADO_GRADE = algo #Muda o atributo da classe
+robo1.__dict__['x'] #Acessa o atributo x do objeto robo1. (não é ( ['x'] ))
+robo1.['x'] #NÃO FUNCIONA
+
+
+#ATRIBUTO DE instancias VS ATRIBUTO DE CLASSE : SÃO DIFERENTES.
+Robo.LADO_GRADE = 20 #Altera o atributo da classe 
+# Alterando o atributo da instância robo1. Neste caso, vira um "atributo distinto e exclusivo".
+robo1.LADO_GRADE = 30
+
+print("\n--- Após alterar robo1.LADO_GRADE = 30 ---")
+print(f"Robo.LADO_GRADE: {Robo.LADO_GRADE}")   # Continua sendo 20
+print(f"robo1.LADO_GRADE: {robo1.LADO_GRADE}")  # Agora é 30 (exclusivo)
+print(f"robo2.LADO_GRADE: {robo2.LADO_GRADE}")  # Continua sendo 20
+
+#De forma similar, robo1 pode ter um atributo novo que robo2 não possui.
+
+
+#Como "esconder" um atributo?
+#Motivação : As vezes, há certos atributos que não queremos que sejam alterados pelo usuário diretamente.
+#Ao invés disso, normalmente tais atributos são alterados através de métodos.
+#Para isso, basta colocar UM underline antes do nome da variável.
+#Acessar diretamente significa acessar o atributo SEM utilizar um metodo como intermediario.
+#Portanto, dentro do metodo é possível acessar.
+#Exemplo:
+def __init__(self, nivel = 100):
+    self.variavel_1 = 100
+    self._nome_variavel = nivel #Atributo "escondido".
+
+#Atenção : Neste tipo, é possível acessar diretamente ao fazer, por exemplo, self._nome_variavel em qualquer momento.
+
+
+#Atributo "duplamente escondido" : Atributo cujo nome tem DOIS underlines como prefixo.
+#Exemplo:
+__variavel = 100 #"Duplamente escondido" / privado
+#Diferentemente do anterior (com UM underline), não é possível acessar diretamente DESTA FORMA. Ou seja:
+#objeto.__variavel resulta em erro, a menos que seja acessado via metodo.
+#Entretanto, tem um equivalente.
+# objeto.__variavel é reconhecido no Python como objeto._NomeClasse_NomeAtributo
+#Portanto, é possível acessar diretamente ao fazer objeto._NomeClasse_NomeAtributo
+
+
+
+
+
+
+# Método : É uma "função" que está dentro de uma classe.
+#   Exemplo : Tendo como continuação da declaração da classe robo anteriormente
+#O primeiro parâmetro dos métodos devem ser sempre o objeto (instancia) da classe.
+    #Por convenção, sempre se chama self, mas pode ser qualquer outro nome.
+#Portanto, toda vez que se faz instancia_objeto.metodo(x,y,z), é como se chamasse:
+#       instancia_objeto.metodo(ref_objeto (self) , x, y, z)
+#Isso signfica que fazer instancia_objeto.metodo(instancia_objeto, x, y,z) resulta em ERRO.
+#Motivo : O Python ja passa, implicitamente, o objeto instanciado como primeiro parametro.
+
+
+def funcao_geral(): #Função
+    pass  #Faz algo
+
+class Robo:
+    def __init__(self):
+        pass
+
+    def avancar(self):
+        pass
+    
+    def sensor_frente(self): #Método. Presente na classe
+        pass
+
+
+#Importante: Ambas as declarações são válidas.
+robo1 = Robo()
+
+robo1.avancar() #Válido, pois ele "manda" o self como primeiro argumento, sempre.
+#robo1.avancar(robo1) #INVALIDO, pois equivale a fazer Robo.avancar(robo1, robo1).
+#                       mas a funcao robo só recebe 1 parametro (self)
+Robo.avancar(robo1) # Válido (Acessando a classe Robo --> metodo avancar --> passando robo1)
+#Ou seja, robo1.avancar() == Robo.avancar(robo1)
+
+
+
+
+#SOBRE METODOS ESPECIAIS
+
+#__str__
+#Faz com que o print(objeto) saia da maneira desejada, ao inves de sair a posicao de memoria, etc.
+#OBS : Caso o objeto esteja dentro de um collection (ex : lista), não funciona print(lista).
+#       Neste caso, irá mostrar a posição na memoria, etc
+#       Neste caso, é necessário ter o __repr__
+
+
+#__eq__
+#Afeta comperaçãoes. Por exemplo, como reagir ao comparar objeto1 == objeto2 (mesmas classe)
+#Isto é necessário, pois caso o contrário, mesmo se os objeos tenham exatamente os mesmos atributos (e valores)
+#o python compararia as posições na memória.
+#Exemplo
+class Posicao:
+
+    def __eq__(self, outraPosicao):
+        if not isinstance(outraPosicao, Posicao): #Verifica se é uma instancia desta classe.
+            return False
+        return self.x == outraPosicao.x and self.y == outraPosicao.y
+
+p1 = Posicao(3,4)
+p2 = Posicao(3,4)
+p1 == p2 #Posicao.__eq__(p1, p2)#Sem o override do __eq__, iria dar false, pois compararia memoria.
+    
+
+
+
+
+CUIDADOS / PEGADINHAS --> REVISAR
+# Caso exista um dicionario, lista, etc que o objeto deva ter, NUNCA use-os com valores iniciais.
+# Motivo : Aquele mesmo esquema de pegadinha de parâmetros de funções, pois o python cria esta lista
+# dicionario, etc e, desta forma, toda vez que chamar a função irá passar o mesmo objeto (lista, dict, etc)
+# Portanto, qualquer alteração em um objeto afeta o outro.
+
+#Exemplo de NÃO FAZER
+class Robo:
+    def __init__(self, lista_obstaculos = []):
+        pass
+    
+robo1 = Robo()
+robo2 = Robo()
+robo1.lista_obstaculos.append(X) // Ou qualquer outra manipulação
+robo2.lista_obstaculos.append(Y)
+#Resultado final : A propriedade lista_obstaculos em ambos os objetos (robo1, robo2) apontam
+#para a mesma lista e, portanto, alterar em um afeta o outro.
+#Isto NORMALMENTE é indesejado.
+
+
+#Exemplo de COMO FAZER (boas práticas)
+class Robo:
+def __init__(self, lista_obstaculos = None):
+    #E, aqui dentro, verificar se é None. Se for None, cria a lista.
+    if lista_obstaculos == None:
+        #Cria
+        self.lista_obstaculos = []
+    else:
+        #Se o que foi recebido NÃO é vazio, atribua a ele.
+        self.lista_obstaculos = lista_obstaculos
+    #Equivalente a self.obstaculos = obstaculos if obstaculos is not None else []
+#Desta forma, os objetos CRIADOS não compartilharão referências de lista, dicts, etc.
+#Lembre-se que isso NÃO acontece para os outros tipos (inteiros, string, etc)
+
+
+#Sobre atributos escondidos (_nome_atributo)
+#Exemplo:
+self.nome_variavel = 100 #É possível acessar diretamente
+self._nome_variavel = 100 #É possível acessar diretamente, mas pela convenção, entende-se que não deve.
+self.__nome_variavel = 100 #NÃO É POSSÍVEL ACESSAR DIRETAMENTE, exceto caso seja acessado via um método.
+#Ao tentar acessar DIRETAMENTE a variável (fora de metodos), o python retornará um erro.
+#Dizendo que não encontrou tal variavel.
+
+
+
+
+#PEGADINHA POSSÍVEL PARA PROVA : Ver sobre __str__ e __repr__, além de como seria para printar
+#caso estivesse numa lista, quem tem prioridade caso ambos definidos, etc.

@@ -1,0 +1,111 @@
+Assuntos, dicas ou termos para revisar para a prova
+
+# 0 - Declaracoes basicas
+
+
+# 1 - F STRINGS
+nome = "robozinho"
+x, y = 6,7 # Mesma coisa de: x = 6, y = 7 (em linhas diferentes)
+
+print("O " + str(nome) + " esta na posicao " str(x)) #Maneira extensiva, mais chata de manter.
+print(f' O {nome} esta na posicao ({x}, {y}))') # Melhor forma, USE ESTA.
+
+
+# 2 - if, elses e elif + Dica de checagem de intervalo
+
+
+    #Chegagem de intervalo em uma linha:
+    0 <= novo_valor < max_valor
+
+# 3 - Captura de input + Conversao do input recebido
+Para receber o INPUT do teclado do usuario, utilize o metodo "input"
+x = input("TEXTO QUE APARECE PARA ESPERAR O INPUT DO USUARIO")
+Eh importante ressaltar que todo input recebido vem como string. Portanto, eh necessario converter.
+x = int(input("..."))
+
+Obviamente, isto nao trata entradas invalidas, as quais resultam em erro.
+
+
+
+# 4 - Lacos de repeticoes
+IMPORTANTISSIMO
+A variavel declarada para ser o indice do bloco de repeticao (neste caso, o 'i')
+esta variavel continua existindo apos sair do bloco, o que significa que, se for utilizado
+dois blocos de repeticoes que usam a mesma ideia, o valor nao reseta.
+Entretanto, eh possivel forcar o indice inicial.
+Exemplo
+for indice in vetor:
+    ...
+
+for indice in outro_vetor:
+    ...
+Neste caso, o valor de indice sera o ultimo utilizado.
+
+
+for i in range(5): #Conta de 0 a 4 # Primeiro indice eh zero
+    print(i)
+
+for i in range(1,6): # Conta de 1 (inicio) a 5. Ou seja, sexto indice ---> 6-1 = 5
+    print(i)
+
+for i in range(5,0,-1): #Comeca de 5, vai ate 0, decrementando.
+
+
+#For com collections (vetores, etc)
+frutas = ["maca", "banana", "laranja"] #Collections
+for i in range(len(frutas)): # Neste caso, o range usa o tamanho (len) do vetor frutas.
+    print(frutas[i])
+
+#importante
+for fruta in frutas: # Por convencao, vetores estao no plural. O python entende
+# Entao, fazer isso faz mostrar todos os elemtentos do collection
+    print(fruta)
+Problema deste metodo : Nao ha como saber qual o indice atual.
+
+
+
+while (condicao):
+    ...
+
+
+
+
+
+
+EXEMPLOS PRATICOS e interessantes
+n = int(input("Quantos comandos para o robo?"))
+for i in range(n):
+    comand = input(f'Digite o comando #{i+1}: ')
+    print(f'Executando {comando}') #Printa a STRING
+
+
+
+
+
+#=============== DICAS =============
+VALIDACAO DE ENTRADA (INPUT)
+num = input(...)
+if num.isnumeric(): #Metodo que verifica se uma string eh um valor numerico valido
+    print(Input esta correto)
+else:
+    print("Entrada invalida")
+OBS : Aparantemente tem um para digitos (isdigit)
+
+
+SEPARANDO INPUT : Quando UMA STRING tem mais de uma informacao desejada
+Exemplo : A string "GIRAR ESQUERDA"
+Para pegar as informacoes individuais GIRAR e ESQUERDA, use:
+x = "GIRAR ESQUERDA"
+resultado = x.split() #Separa a string usando os espacos como referencia
+#Resulta em um collection de strings.
+
+Dicas para strings : Eh interessante formatar a string toda antes de separar as informacoes.
+    "upper()" transforma todos os caracteres em letras maiusculas.
+    "split()" remove todos os espacos em brancos. Eh possivel eliminar um caractere especifico.
+OBS - Usar split ANTES do upper causa erro, pois o resultado do split eh uma collection, e nao uma string
+OBS - Os metodos de formatacao anteriormente NAO altera a string da variavel "pai".
+Ordem ideal : strip().upper().split()
+
+
+
+
