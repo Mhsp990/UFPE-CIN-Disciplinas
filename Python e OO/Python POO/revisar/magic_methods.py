@@ -197,3 +197,53 @@ except TypeError as erro:
 
 
 #__GET_ITEM__
+#Quando você faz objeto[chave], o python interpreta como objeto.__getitem__(chave).
+#Portanto, qualquer classe que implemente o método __get_item__ irá possibilitar o uso de objeto[chave]
+#Veja o exemplo abaixo
+class Grade:
+    def __init__(self, lado, obstaculos=None):
+        self.lado = lado
+        self.obstaculos = obstaculos if obstaculos is not None else {}
+
+    def __getitem__(self, pos):
+        if pos in self.obstaculos:
+            return "X"
+        return "."
+
+
+grade = Grade(5, {(2, 2): True, (3, 1): True})
+print(grade[(2, 2)])
+print(grade[(0, 0)])
+
+for y in range(5):
+    linha = "".join(grade[(x, y)] for x in range(5))
+    print(linha)
+
+# X
+# .
+# .....
+# ...X.
+# ..X..
+# .....
+# .....
+
+#Exemplo 2
+class Grade:
+    def __init__(self, lado, obstaculos=None):
+        self.lado = lado
+        self.obstaculos = obstaculos if obstaculos is not None else {}
+
+    def __getitem__(self, pos):
+        if pos in self.obstaculos:
+            return "X"
+        return "."
+
+    def __contains__(self, pos):
+        # TODO: devolva True se pos estiver em self.obstaculos
+        return pos in self.obstaculos
+        
+
+
+grade = Grade(5, {(2, 2): True})
+print((2, 2) in grade)
+print((0, 0) in grade)
