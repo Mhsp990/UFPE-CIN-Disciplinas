@@ -1,0 +1,84 @@
+#DATA CLASS - Decorator (@dataclass)
+#O decorador @dataclass do módulo nativo dataclasses cria automaticamente métodos básicos 
+# e repetitivos, como o construtor __init__, a representação em texto __repr__ 
+# e a comparação de igualdade __eq__, com base nas variáveis indicadas na classe.
+#Ou seja, ao inves de termos que sobrescrever os metodos especiais vistos anteirormente,
+#é possível apenas usar isso e, automaticamente, já é criado métodos similares para nós.
+#IMPORTANTE : Os atributos da classe DEVEM ter tipagem, embora ela não precise ser seguida.
+#               Caso não tenha, não dá erro, mas o data class não utiliza aquele atributo para suas mecanicas.
+
+from dataclasses import dataclass #É necessário importar para usar
+
+
+@dataclass
+class Pos:
+    #Para funcionar adequadamente, é necessário ter variáveis DE CLASSE, para deixar explícito
+    #ao data class o que esperar.
+    #OBS : Embora seja "tipado" nada impede de receber outros tipos no init, por exemplo. 
+    # Não causa erro neste caso
+    
+    x : int #É necessário fazer essa "tipagem" no data class. Deste jeito, não é opcional no init e deve ser passado.
+    # x #Esta variável 'x' solto assim não é aceitável. Portanto, neste caso, as MECANICAS do dataclass ignoram esse atributo
+    
+    y : int  
+    z : int = 10 #Pode e tem outro efeito : O init dessa classe terá esse atributo como valor opcional
+    #               #Ou seja, o init vai ter o parametro z com valor padrão 10.
+
+
+
+
+#OUTROS EXEMPLOS DE DATACLASS
+@dataclass
+class Sensor:
+    nome : str
+    alcance : int
+
+s1 = Sensor("ré", 1)
+print(s1) #Sensor( nome = 'ré', alcance = 1)
+
+@dataclass
+class Bateria:
+    nivel : int
+    capacidade_max : int = 100
+
+    def percentual(self):
+        return (self.nivel/self.capacidade_max)*100
+
+b = Bateria(60)
+print(b.percentual())
+
+
+@dataclass(frozen = True)
+class Posicao:
+    x : int
+    y : int
+    pass
+
+
+@dataclass(frozen = True)
+class Comando:
+    acao : str
+    valor : int | str
+
+@dataclass
+class HistoricoMovimento:
+    origem : Posicao
+    comando : Comando
+
+hist1 = HistoricoMovimento(Posicao(0,0), Comando('AVANCAR', 3))
+print(hist1)
+
+posicoes = [Posicao(3,7), Posicao(2,4), Posicao(3,3)]
+print(posicoes)
+#print(sorted(posicoes)) #Não funciona, precisa do magic method definido na classe em questão.
+#   OU, faz o seguinte :
+
+@dataclass(frozen = True, order = True)
+class PosicaoTipo2:
+    #Neste caso, faz o sort para os atributos, em ordem.
+    #Compara primeiro X. Se houver empate, vai para o proximo (y), etc.
+    x : int = 0
+    y : int = 0
+
+posicoes = [PosicaoTipo2(3,7), PosicaoTipo2(2,4), PosicaoTipo2(3,3)]
+print(posicoes)
