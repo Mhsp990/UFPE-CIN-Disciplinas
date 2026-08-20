@@ -201,6 +201,8 @@ self.__nome_variavel = 100 #NÃO É POSSÍVEL ACESSAR DIRETAMENTE, exceto caso s
 
 
 #CONTEUDO POSSIVEL PARA A PROVA
+#   Ver sobre criação de subclasses e subclasse da subclasse
+#       Ver como criar objetos desse tipo, como fica o init, como fica usando kwargs, etc.
 #   Criacao de caches de ultimos comandos do robo, etc.
 #   Ver sobre descriptors (e sua utilizacao, por exemplo, com cache)
 #       "Utilidades" : Controle do que é salvo na variavel (exemplo : Apenas inteiros maior que 0, etc)

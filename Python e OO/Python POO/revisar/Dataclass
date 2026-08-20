@@ -1,0 +1,113 @@
+#DATA CLASS - Decorator (@dataclass)
+#RESUMO : O data class lê as anotações de tipos de atributos DA CLASSE e gera o __init__, __repr__ e __eq__ "por baixo dos panos."
+#IMPORTANTE : Os atributos da classe DEVEM ter tipagem, embora ela não precise ser seguida.
+#               Caso não tenha, não dá erro, mas o data class não utiliza aquele atributo para suas mecanicas.
+
+from dataclasses import dataclass #É necessário importar para usar
+
+@dataclass
+class Pos:
+    #OBS : Embora seja "tipado" nada impede de receber outros tipos no init, por exemplo. 
+    # Não causa erro neste caso
+    
+    x : int #É necessário fazer essa "tipagem" no data class. Deste jeito, não é opcional no init e deve ser passado.
+    minha_variavel = 0 #Esta variável  solta assim é ignorado pelas MECANICAS do dataclass. Ou seja, não vai estar no init, repr, eq
+    minha_variavel_2 : str
+    y : int  
+    z : int = 10 #Pode e tem outro efeito : O init dessa classe terá esse atributo como valor opcional
+    #               #Ou seja, o init vai ter o parametro z com valor padrão 10.
+
+pos = Pos(1, "abc", 2)
+print(pos) #Pos(x=1, minha_variavel_2='abc', y=2, z=10)
+
+
+
+#OUTROS EXEMPLOS DE DATACLASS
+@dataclass
+class Sensor:
+    nome : str
+    alcance : int
+
+s1 = Sensor("ré", 1)
+print(s1) #Sensor( nome = 'ré', alcance = 1)
+
+@dataclass
+class Bateria:
+    nivel : int
+    capacidade_max : int = 100
+
+    def percentual(self):
+        return (self.nivel/self.capacidade_max)*100
+
+b = Bateria(60)
+print(b.percentual())
+
+
+
+#DATA CLASS : frozen = True
+#Ao utilizar frozen = True, qualquer tentativa de reatribuir um campo, após a criação do objeto, levanta um erro de FrozenInstanceError, 
+# que é similar ao tentar escrever numa property que é somente leitura (so get, sem setter)
+#Entretanto, o conteúdo DENTRO destes campos pode ser alterado. Exemplo : Se tiver uma lista, é possível alterar internamente a lista,
+#mas não reatribuir a variável 'minha_lista' para apontar a outra lista. (portanto, coisas como list comprehension, fatiamento, etc causaria erro)
+#   mas usar append, pop, etc é possível. Ou seja, impede apenas o "rótulo / referencia", não o conteúdo.
+#   OBS: Usar o atributo de classe com valor padrão, fazendo minha_lista : list = [], causa aquele problema de todo mundo acessar A MESMA LISTA.
+#Bastante útil para dados que "deveriam ser imutaveis" após sua criação
+#   Iclusive, tentar fazer esse atributo de classe minha_lista : list = [] causa erro (ValueError) para dataclass.
+
+@dataclass(frozen = True)
+class Posicao:
+    x : int
+    y : int
+    pass
+
+
+@dataclass(frozen = True)
+class Comando:
+    acao : str
+    valor : int | str
+
+@dataclass
+class HistoricoMovimento:
+    origem : Posicao
+    comando : Comando
+
+hist1 = HistoricoMovimento(Posicao(0,0), Comando('AVANCAR', 3))
+print(hist1)
+
+p = Posicao(3,4)
+#p.x = 99 # Causa um erro, pois após a criação, não pode reatribuir os campos para outras "referências" de memória.
+
+posicoes = [Posicao(3,7), Posicao(2,4), Posicao(3,3)]
+print(posicoes)
+#print(sorted(posicoes)) #Não funciona, precisa do magic method definido na classe em questão.
+#   OU, faz o seguinte :
+
+
+#dataclass :  order = True
+@dataclass(frozen = True, order = True)
+class PosicaoTipo2:
+    #Neste caso, faz o sort para os atributos, em ordem.
+    #Compara primeiro X. Se houver empate, vai para o proximo (y), etc.
+    x : int = 0
+    y : int = 0
+
+posicoes = [PosicaoTipo2(3,7), PosicaoTipo2(2,4), PosicaoTipo2(3,3)]
+print(posicoes)
+
+
+
+#Como evitar valores defaults compartilhados (aquele problema de criar listas, dicts, etc com valores defaults)
+#que faz com que cada instancia daquela classe (ou que usem o metodo) compartilhem a referencia para o mesmo collection.
+#Use o field(default_factory = tipo)
+
+from dataclasses import dataclass, field
+
+@dataclass(fronze = True)
+class Leitura:
+    posicao = tuple
+    obstaculos_proximos : list = field(default_factory=list)
+
+l1 = Leitura((0,0))
+l2 = Leitura((0,0))
+print(l1)
+print(l1.obstaculos_proximos is l2.obstaculos_proximos) #Mostra que os objetos 'obstaculos proximos' de cada um apontam para referencias diferentes.
