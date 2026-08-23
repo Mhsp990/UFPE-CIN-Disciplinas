@@ -40,14 +40,14 @@ class Moto(Veiculo): #Classe moto HERDA de veiculo
 
     def metodo2(self):
         #Sobrescreve o metodo herdade da classe pai por o que está abaixo.
-        #A assinatura ainda precisa ser igual.
+        #Funciona mesmo se tiver uma assinatura (parametros) a diferente (a mais), mas neste caso, recomenda-se usar valores opcionais.
         pass
 
     def metodo3(self):
         #Sobrescreve o metodo 3, mas devido ao super, repete o codigo do metodo3 do pai.
         #Em seguida, faz algo a mais que não é feito no metodo3 da classe pai
         #Util quando o comportamento do metodo3 se repete e, depois, acrescenta-se o comportamento diferente.
-        super().metodo3()
+        super().metodo3() #Repete o comportamento da classe pai
 
         #Faz algo extra.
 
