@@ -63,3 +63,20 @@ moto.metodo1() #Funciona, pois a classe Moto herdou todos os metodos (e atributo
 moto.metodo2() #Funciona.
 moto.metodo3() #Funciona.
 
+
+
+# Mecanismos para complementar OU evitar herança
+#Composition:
+#Ao invés de criar uma classe nova para acrescentar uma funcionalidade, faz-se uma classe apenas para aquele tipo de funcionalidade
+#e, depois, adiciona-a como objeto a classe alvo.
+#Por exemplo, ao invés de criar as subclasses RoboComSensorDistancia, RoboComSensorDistanciaAprimorado,RoboComSensorRadio
+#basta dizer que a classe Robo tem um atributo "sensor", que será um objeto da classe Sensor.
+#Portanto, bastaria que robo fizesse self.sensor.executar()
+
+
+#Ducktyping
+#Basicamente, ao invés de "amarrar" classes distintas com herança, faz-se um contrato IMPLICITO
+#que todas as classes alvos deverão ter um (ou mais) métodos com a mesma assinatura (ou em caso de parametros diferentes, opcionais).
+#Desta forma, todas possuem o mesmo metodo e, depois, basta chamar: Objeto_que_nao_sei_a_classe._metodo_comum_a_todos()
+
+
