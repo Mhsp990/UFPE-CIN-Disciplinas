@@ -157,3 +157,44 @@ print(robo4._log_mudancas)
 
 
 #__init_subclass__
+
+#Este método "mágico" é gatilhado toda vez que uma SUBclasse é DEFINIDA e, portanto, antes de qualquer instância dela existir.
+#Portanto, este método será definido na CLASSE MÃE.
+#Exemplo de utilidade : Criar um registro de todas as subclasses existentes de uma determinada classe de forma automática (a final, é metaprogramação)
+#Veja o exemplo abaixo:
+class Animal:
+    registrados = []
+
+    def __init_subclass__(cls, **kwargs):
+        super().__init_subclass__(**kwargs) #Sempre chame o super. Se não, o python só sobrescrever e a criação da classe não ocorre.
+        Animal.registrados.append(cls) #Cria um registros de classes. (cls contém o nome dado aquela classe.)
+
+class Cachorro(Animal):
+    pass
+
+class Gato(Animal):
+    pass
+
+print(Animal.registrados) # [<class '__main__.Cachorro'>, <class '__main__.Gato'>]
+
+#No caso do robo, veja o próximo exemplo:
+class Robo3:
+    _registro = {}
+
+    def __init_subclass__(cls, categoria="geral", **kwargs):
+        super().__init_subclass__(**kwargs)
+        Robo3._registro[cls.__name__] = cls  #Cria dentro do dicionario, usando o NOME DA CLASSE como chave. "RoboVeloz": <class '__main__.RoboVeloz'>
+        print(f'Nome da classe é : {cls.__name__}') #Imprime o nome da classe. Neste exemplo : "RoboVeloz" (uma string). 
+        cls.categoria = categoria #Cria um campo categoria, ou seja, um ATRIBUTO DE CLASSE
+
+    def __init__(self, nome):
+        self.nome = nome
+
+
+class RoboVeloz(Robo3, categoria="ofensivo"):
+    pass
+
+print(Robo3._registro) # {'RoboVeloz': <class '__main__.RoboVeloz'>}
+print(RoboVeloz.categoria) #ofensivo
+
+
