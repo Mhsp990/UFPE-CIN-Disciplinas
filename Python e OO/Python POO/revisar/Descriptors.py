@@ -21,7 +21,8 @@
 
 #OBS: No caso de atributos de classes e atributos de instância, o python verifica primeiro o "dict"
 #da instância. Se não houver o atributo "desejado", ele procura no do pai e por ai vai.
-#Por isso, é possível "sobrescrever" métodos e atributos de classes.
+#Por isso, é possível "sobrescrever" métodos e atributos de classes, pois estes passam a existir
+#no primeiro lugar de procura (na subclasse atual).
 
 #Portanto, é por isso que o python:
 #Consegue criar variáveis a qualquer momento, e de qualquer tipo.
@@ -55,12 +56,21 @@ print(p.__dict__) # Resulta em {'nome': 'Ana', 'idade': 30}. O atributo de class
 #Veja o exemplo abaixo, na qual o descriptor "mora" UMA VEZ em Pessoa.__dict__, compartilhado por todas as instâncias.
 #           A unica coisa que muda é o valor guardado em instance.__dict__
 
+
+#IMPORTANTE : Nunca use os métodos setattr e getattr dentro dos métodos mágicos __set__ e __get__. Como estes chamam
+#os métodos mágicos por baixo dos panos, isto irá calcular um loop e estouro de pilha.
+#Ou seja, dentro de __get__ e __set__, sempre use o "dicionario do objeto".
+
+
 class Atributo:
     def __init__(self, nome):
         self.nome = nome
 
     def __get__(self, instance, owner):
-        if instance is None:
+        if instance is None: 
+            #MOTIVO : O get pode ser chamado de duas formas : Pela instancia ou pela classe.
+            #Portanto, se fizerem chamando pela classe (exemplo : Pessoa.nome), instancia is None.
+            #Neste caso, retorna-se o descriptor em si, ao invés do valor acessado.
             return self
         return instance.__dict__[self.nome]
 
@@ -79,3 +89,83 @@ class Pessoa:
 
 p = Pessoa("Ana", 30)
 print(p.nome, p.idade)
+
+
+#Perceba que, usando composition, os atributos da classe pessoa são, na verdade, um objeto (da classe Atributo).
+#Portanto, usando o exemplo anterior, faz-se p.nome ou p.idade, seja para LER our ESCREVER, na verdade o que acontece
+#é que está acessando o objeto do tipo Atributo e através dos métodos mágicos, a forma como o python "executa/entende" a 
+#leitura (p.nome) ou escrita (p.nome = algo) está alterada e, de acordo com o definido nos métodos mágicos, escrevemos ou lemos
+#está sendo feita de forma DIRETA ao dicionário do objeto em questão.
+#Qual a vantagem disso? Bem, poderiamos, por exemplo, colocar restrições na escritas (como apenas objetos de um certo tipo, etc)
+#e decidir como a leitura OU escrita realmente é feita. 
+#Veja o exemplo abaixo, no qual implementaremos, também, uma maneira de "nomear" o descriptor.
+#____________________________________________________________-
+#EXEMPLO 1
+class NaoNegativo:
+    def __set_name__(self, owner, name):
+         #Este método é chamado automaticamente pelo python quando a classe é criada.
+         #Neste caso, o campo "name" recebe o nome que o objeto Sensor deu ao atributo.
+         #Portanto, Evita a chance do programador escrever errado o nome ao ser passado para o init, caso usa-se o metodo anteiror.
+        self.nome = "_" + name
+
+    def __get__(self, instance, owner):
+        if instance is None:
+            return self
+        return instance.__dict__[self.nome]
+
+    def __set__(self, instance, valor):
+        if valor < 0: #Condição para escrita. Neste caso, não aceita valores negativos.
+            raise ValueError(f"{self.nome[1:]} não pode ser negativo, recebi {valor}")
+        instance.__dict__[self.nome] = valor
+
+
+class Sensor:
+    alcance = NaoNegativo()
+
+    def __init__(self, alcance=1):
+        self.alcance = alcance
+
+
+s1 = Sensor(3)
+print(s1.alcance) # 3
+try:
+    s1.alcance = -1 #Vai gatilhar o erro.
+except ValueError as erro:
+    print(f"{type(erro).__name__}: {erro}")
+
+#____________________________________________________________-
+#EXEMPLO 2
+class TextoNaoVazio:
+    def __set_name__(self, owner, name):
+        self.nome = "_" + name
+
+    def __get__(self, instance, owner):
+        if instance is None:
+            return self
+        return instance.__dict__[self.nome]
+
+    def __set__(self, instance, valor):
+        if not valor.strip():
+            raise ValueError("nome não pode ser vazio")
+        instance.__dict__[self.nome] = valor
+
+
+class Robo:
+    nome = TextoNaoVazio()
+
+    def __init__(self, nome):
+        self.nome = nome
+
+
+try:
+    Robo("   ")
+except ValueError as erro:
+    print(f"{type(erro).__name__}: {erro}")
+
+try:
+    print(Robo("Wall-E").nome)
+except KeyError:
+    print("Complete o TODO acima para ver o resultado.")
+
+
+#===================================================================================================#
