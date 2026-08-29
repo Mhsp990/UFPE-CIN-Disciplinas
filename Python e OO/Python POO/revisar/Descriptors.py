@@ -2,6 +2,7 @@
 #Bem, a melhor maneira de começar a analogia é dizendo o seguinte :
 # O python guarda, acessa e atribui todas as variaveis existentes de um objeto através de um dicionario.
 #           OBS : Isso é valido para, por exemplo, classes e suas instâncias.
+#           OBS2: Lembre-se que classes, listas e outros também são, na verdade, objetos.
 #Isso quer dizer que, quando você faz:
 
 #   meu_objeto.meu_atributo = alguma_coisa
