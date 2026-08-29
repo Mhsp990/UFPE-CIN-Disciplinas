@@ -160,12 +160,105 @@ class Robo:
 try:
     Robo("   ")
 except ValueError as erro:
-    print(f"{type(erro).__name__}: {erro}")
+    print(f"{type(erro).__name__}: {erro}") #ValueError: nome não pode ser vazio
 
 try:
-    print(Robo("Wall-E").nome)
+    print(Robo("Wall-E").nome) #Cria um objeto, passando nome = "Wall-E". Em seguida, já acessa seu descriptor.
 except KeyError:
     print("Complete o TODO acima para ver o resultado.")
 
 
 #===================================================================================================#
+
+#Sobre properties e Descriptors
+#Na verdade, property também é um descriptor. A diferença é que property é usado para UM atributo de UMA classe, enquanto que
+#os descriptors pode ser REUTILIZADOS em inúmeras classes.
+#Por exemplo, se eu tiver varias variaveis de inteiros NÃO negativos, basta eu usar o descriptor NaoNegativo para cada
+#ao invés de criar setters e getters para cada variável da classe em questão.
+
+#Exemplo : Coordenadas.
+class Coordenada:
+    def __init__(self, minimo, maximo):
+        self.minimo = minimo
+        self.maximo = maximo
+
+    def __set_name__(self, owner, name):
+        self.nome_publico = name
+        self.nome = "_" + name
+
+    def __get__(self, instance, owner):
+        if instance is None:
+            return self
+        return instance.__dict__[self.nome]
+
+    def __set__(self, instance, valor):
+        if not (self.minimo <= valor < self.maximo):
+            raise ValueError(
+                f"{self.nome_publico}={valor} sai da grade "
+                f"({self.minimo} a {self.maximo - 1})"
+            )
+        instance.__dict__[self.nome] = valor
+
+
+class Teste:
+    x = Coordenada(0, LADO_GRADE)
+
+    def __init__(self, x):
+        self.x = x
+
+
+t = Teste(3)
+print(t.x) # 3
+try:
+    t.x = 99 #Gatilha o erro abaixo, pois está fora do range aceitado pelo set do descriptor.
+except ValueError as erro:
+    print(f"{type(erro).__name__}: {erro}")
+
+
+#Isto resulta em uma classe mais enxuta:
+class Robo:
+    LADO_GRADE = 10
+    x = Coordenada(0, LADO_GRADE)
+    y = Coordenada(0, LADO_GRADE)
+
+    def __init__(self, nome, x=0, y=0):
+        self.nome = nome
+        self.x = x
+        self.y = y
+
+
+robo1 = Robo("Wall-E")
+print(robo1.x, robo1.y)
+robo1.x = 3
+print(robo1.x)
+try:
+    robo1.x = 99
+except ValueError as erro:
+    print(f"{type(erro).__name__}: {erro}")
+
+
+#VEJA O PRÓXIMO EXEMPLO ABAIXO:
+class Percentual:
+    def __set_name__(self, owner, name):
+        self.nome = "_" + name
+
+    def __get__(self, instance, owner):
+        if instance is None:
+            return self
+        return instance.__dict__[self.nome]
+
+    def __set__(self, instance, valor):
+        instance.__dict__[self.nome] = max(0, min(100, valor))
+
+
+class Robo2:
+    bateria = Percentual()
+
+    def __init__(self, bateria=100):
+        self.bateria = bateria
+
+
+robo2 = Robo2(bateria=150)
+print(robo2.bateria)
+robo2.bateria = -30
+print(robo2.bateria)
