@@ -188,7 +188,79 @@ print(config1 is config2)
 #       Neste caso, passamos certas coisas como parametro, inclusive o "tipo" de sinal, para que o observador saiba se interessa a ele ou não.
 #O observador, ao ter seu método "reagir" gatilhado pelo objeto 1, simplesmente analisa o "tipo" e decide como reagir, recebendo também
 #várias informações que foram enviadas como argumentos (exemplo : nivel de bateria, etc).
+#Exemplos pro robor:  Avisar quando bater em uma parede, avisar quando o nível de bateria muda ou fica crítica, etc.
 
+
+#Como funciona no python, de maneira simplificada:
+#O sujeito que será observado guarda uma lista de observadores e possui um método chamado "notificar".
+#Quando este método é chamado, todos os OBSERVADORES na lista executam, através do sujeito (objeto observado), o método "atualizar".
+#O método atualizar dos observadores receberá os argumentos passados pelo sujeito e, dai, faz o que querem fazer (inclusive nada).
+#OBS : Para poder diferenciar qual o "tipo de aviso", neste caso foi usado um campo padrão para distinguir o tipo de mensagem
+#       portanto, dentro do observador, ele verifica este tipo e muda seu comportamento de acordo.
+class Sujeito:
+    def __init__(self):
+        self._observadores = []
+
+    def adicionar_observador(self, observador):
+        self._observadores.append(observador)
+
+    def remover_observador(self, observador):
+        self._observadores.remove(observador)
+
+    def notificar(self, **dados):
+        for obs in self._observadores:
+            obs.atualizar(**dados)
+
+
+class Observador:
+    def atualizar(self, **dados):
+        raise NotImplementedError
+
+
+class PrintObservador(Observador):
+    def __init__(self, nome):
+        self.nome = nome
+
+    def atualizar(self, **dados): #Importante : Use kwargs, para deixar genérico
+        print(f"{self.nome} recebeu: {dados}")
+
+s = Sujeito()
+s.adicionar_observador(PrintObservador("Obs1")) #Neste caso, estamos criando o objeto "ao mesmo tempo" que o passamos. Mas não precisa ser assim.
+s.adicionar_observador(PrintObservador("Obs2"))
+
+#Neste caso, irá sair duas saídas, pois existem dois observadores reagindo 
+s.notificar(evento="teste", valor=42) 
+#Obs1 recebeu: {'evento': 'teste', 'valor': 42}
+#Obs2 recebeu: {'evento': 'teste', 'valor': 42}
+
+
+#Portanto, é possível fazer o sistema reagir a eventos. Por exemplo, é possível implementar um logger:
+class Logger(Observador):
+    def __init__(self):
+        self.eventos = []
+
+    def atualizar(self, **dados): 
+        self.eventos.append(dados)
+
+
+log = Logger()
+s2 = Sujeito()
+s2.adicionar_observador(log)
+s2.notificar(evento="primeiro")
+s2.notificar(evento="segundo")
+print(log.eventos) # [{'evento': 'primeiro'}, {'evento': 'segundo'}] #Uma lista dos eventos (e seus tipos)
+
+
+#Desta forma, pode-se dizer que o sujeito deve ter os seguintes mecanismos e atributos:
+#   Atributo "observadores", contendo a lista de todos os observadores inscritos
+#   Método Notificar(self, tipo_evento, **dados). 
+#           Este método irá pecorrer a lista de observadores, ativando os método "atualizar" deles, passando tipo_evento e **dados como argumentos.
+#   Método adicionar_observador(self, obs) : Recebe um objeto para ser adicionado a lista de observadores.
+#Portanto, quando alguma coisa no sistema ocorrer, basta o sujeito usar o método notificar.
+#Exemplo : Colocar no setter de nivel_bateria para usar notificar toda vez que o valor for alterado (ou alcançar valor crítico)
+
+#E o sujeito deve ter o método "atualizar", preparado para receber(self, tipo_evento, **dados) (self, nesse caso, é o próprio observador).
+#OBS: É comum, no sujeito, criar uma chave para si mesmo, a fim de passar uma referência de si.
 
 
 
@@ -198,3 +270,19 @@ print(config1 is config2)
 #O objeto possui um estado. Cada estado é uma classe com os mesmos métodos (exemplo : execute(), mover(), avisar(), etc)
 #A depender de qual estado o objeto robo possui, ao fazer robo.avisar() (por exemplo), o comportamento muda.
 
+#Veja o exemplo:
+class ModoOperacao:
+    def mover(self, robo):
+        raise NotImplementedError
+
+
+class ModoExplorando(ModoOperacao):
+    def mover(self, robo):
+        return robo.avancar()
+
+
+Robo.mover = lambda self: self.modo.mover(self)
+robo3 = Robo("Optimus", x=5, y=5)
+robo3.modo = ModoExplorando()
+robo3.mover()
+print(robo3.x, robo3.y)

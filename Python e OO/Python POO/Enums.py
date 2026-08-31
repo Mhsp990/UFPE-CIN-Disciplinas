@@ -9,7 +9,7 @@
 from enum import Enum, auto #auto é usado para atribuir automaticamente um valor. Como se fosse uma pk incremental.
 
 class Prioridade(Enum):
-    BAIXA = 0
+    BAIXA = auto()
     MEDIA = auto()
     ALTA = auto()
 
@@ -23,7 +23,7 @@ print((Prioridade.ALTA == Prioridade.ALTA)) #Sai true. Não está comparando os 
 print((Prioridade.BAIXA == MeuOutroEnum.BAIXA)) #FALSE, pois embora tenham o mesmo valor, são enums diferentes
 print(Prioridade.ALTA == "ALTA") #False.
 
-
+print("=================================================")
 
 class Direcao(Enum):
     LESTE = (1,0)
