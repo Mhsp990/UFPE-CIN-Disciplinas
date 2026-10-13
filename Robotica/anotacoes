@@ -1,0 +1,11 @@
+IMPORTANTE SABER
+- Saber identificar as matrizes de rotacoes. Inclusive, qual o eixo só pela matriz.
+
+
+
+
+Sempre tentar deixar o eixo Z no mesmo eixo que o motor gira.
+Se um eixo vai para o outro, a rotação é positiva.
+    Exemplo : Se a rotação é em TORNO DO EIXO X, no qual o eixo Y vai para o Z, será positivo.
+
+

@@ -1,0 +1,66 @@
+
+GRAUS NEGATIVO OU POSITIVO EM ROTACAO DE EIXO
+X PARA Y --> POSITIVO
+Y PARA Z --> POSITIVO
+LEMBRE-SE : X->Y->Z
+
+EXEMPLO : Rotaciono no eixo X em 90 graus, mas não sei se é positivo ou negativo.
+#           Analiso : A rotação que quero faz o Y ir para onde o Z tava. Então é POSITIVO
+
+
+FOWARD KINEMATICS (FK)
+Sempre tentar deixar o eixo Z alinhado com o eixo de rotação do motor.
+#OBS : Sempre seja consistente. Se determinar que "horario" é positivo, seja consistente. Se não, azeda.
+    Exemplo : Se a rotação é em TORNO DO EIXO X, no qual o eixo Y vai para o Z, será positivo.
+Sempre deixamos o "eixo" em cima do motor. Desta forma, a translação é altura até chegar no moto.
+
+W_T_1 # Matriz de transformação de World para a primeira junta/motor (1)
+X_T_T = Neste caso, o ultimo T é a tool. Seria o "referencial ferramenta", na ponta.
+q1 = Valor de rotação do motor (que como deixamos alinhado, será no eixo Z)
+l1 = distância do braço até o motor 1. Ou seja, vai ser a translação
+OBS : Essas translações, rotações, etc dependem do "blueprint" do braço em questão.
+
+#Primeira junta. Começamos com o eixo z sendo o "nosso vertical", alinhado com o mundo.
+W_T_1 = Tz(l0) * Rz(q1)
+
+#Segunda junta. Essa é importante entender.
+#Imagine que você tem um "eixo original", que é o do anterior, que para o eixo 1 deixamos alinhado com o mundo.
+#Entretanto, a junta t2 gira em torno, "originalmente", em torno do nosso eixo y.
+# OBS : Perceba que o "original" sempre muda. O original do t2 é em relação ao t1, do t1 é em relação ao w, etc.
+#Portanto, para alinharmos o eixo "original" para nossa nova operação, a ordem das operações depende do "data sheet"
+# do hardware. Neste caso, t2 está APENAS acima de t1. Portanto, deve-se fazer, EM ORDER:
+#   1 - Transladar até o motor t2 : l2
+#   2 - Como o motor T2 gira, em relação ao eixo original (T1), no eixo X, precisamos alinhar o eixo Z com o X.
+#       Para isso, precisamos rotacionar em X primeiro em 90 graus. 
+#       Desta forma, o antigo Z fica alinhado com o eixo de rotação do motor
+#   3 - Depois, a rotação do motor no seu proprio eixo (Que agora, é o Z).
+# Portanto, a transformada de 1 para 2 pode ser descrita como
+1_T_2 = Tz(l1) * Rx(90graus) * Rz(q2), em que q2 representa a rotação do motor t2 (ou seja, um valor variavel).
+
+#Para t3, a ideia é similar. Mas neste caso, para "alcançar" o motor, nosso novo eixo original precisa:
+#   1 - Deslocar em X até certo ponto (l2_x)
+#   2 - Depois, deslocar em Y para BAIXO (com relação ao nosso novo original, para baixo no y é negativo.)
+#   3 - Em seguida, como o eixo de rotação Z já está alinhado com o motor, não precisa de uma rotação adicional como na etapa anterior
+#   Portanto, a transformada de 2 para 3 pode ser descrita como:
+2_T_3 = Tx(l2_x) * Ty( - l2_y ) * Rz(q3), em que q3 é o atual angulo do motor em t3.
+
+#Seguindo a mesma logica:
+3_T_4 = Tx(l3)*Rz(q4)
+4_T_5 = Tx(l4)*Ry(90graus)*Rz(q5)
+
+ #Distancia de 5 para ferramenta. Neste caso, não precisa rotacionar pois a ferramenta já está alinhada com o eixo anterior
+ # Além disso, neste caso, a ferramenta não tem rotaão em si mesma. Apenas "fechar e abrir".
+5_T_T = Tz(l5)
+
+Portanto, ao juntar tudo, é possível calcular a posição da ferramenta com base nas rotações de cada motor. (FK)
+
+Dados do data sheet:
+l0 = 0.053
+l1 = 0.0445
+l2x = 0.1132
+l2y = 0.0415
+l3 = 0.162
+l4 = 0.0432
+l5 = 0.0801
+
+
