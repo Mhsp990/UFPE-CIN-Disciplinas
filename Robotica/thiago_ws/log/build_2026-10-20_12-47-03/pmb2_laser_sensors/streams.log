@@ -1,0 +1,22 @@
+[0.026s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pmb2_navigation/pmb2_laser_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pmb2_laser_sensors
+[0.186s] -- The C compiler identification is GNU 13.3.0
+[0.190s] -- The CXX compiler identification is GNU 13.3.0
+[0.215s] -- Detecting C compiler ABI info
+[0.349s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.377s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.566s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.861s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.023s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.024s] -- Added test 'lint_cmake' to check CMake code style
+[1.025s] -- Added test 'xmllint' to check XML markup files
+[1.026s] -- Configuring done (1.0s)
+[1.029s] -- Generating done (0.0s)
+[1.031s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/pmb2_laser_sensors

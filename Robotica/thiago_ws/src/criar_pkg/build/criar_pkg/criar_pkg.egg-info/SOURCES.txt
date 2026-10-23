@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+criar_pkg/__init__.py
+criar_pkg/control_arm.py
+criar_pkg/control_head.py
+criar_pkg/control_thiago.py
+criar_pkg/process_image.py
+criar_pkg/process_laser.py
+criar_pkg.egg-info/PKG-INFO
+criar_pkg.egg-info/SOURCES.txt
+criar_pkg.egg-info/dependency_links.txt
+criar_pkg.egg-info/entry_points.txt
+criar_pkg.egg-info/requires.txt
+criar_pkg.egg-info/top_level.txt
+criar_pkg.egg-info/zip-safe
+resource/criar_pkg

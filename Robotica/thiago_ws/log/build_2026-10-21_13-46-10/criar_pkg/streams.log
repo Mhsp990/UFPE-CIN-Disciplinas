@@ -1,0 +1,24 @@
+[1.278s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/criar_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/criar_pkg/build --no-deps symlink_data
+[1.644s] running develop
+[1.873s] running egg_info
+[1.873s] creating criar_pkg.egg-info
+[1.894s] writing criar_pkg.egg-info/PKG-INFO
+[1.894s] writing dependency_links to criar_pkg.egg-info/dependency_links.txt
+[1.894s] writing entry points to criar_pkg.egg-info/entry_points.txt
+[1.895s] writing requirements to criar_pkg.egg-info/requires.txt
+[1.895s] writing top-level names to criar_pkg.egg-info/top_level.txt
+[1.895s] writing manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[1.940s] reading manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[1.941s] writing manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[1.963s] running build_ext
+[1.964s] Creating /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages/criar-pkg.egg-link (link to .)
+[1.964s] Installing cmd_thiago script to /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/criar_pkg
+[1.965s] 
+[1.965s] Installed /home/mhsp/Documents/thiago_ws/build/criar_pkg
+[1.965s] running symlink_data
+[1.965s] creating /home/mhsp/Documents/thiago_ws/install/criar_pkg/share/ament_index
+[1.965s] creating /home/mhsp/Documents/thiago_ws/install/criar_pkg/share/ament_index/resource_index
+[1.965s] creating /home/mhsp/Documents/thiago_ws/install/criar_pkg/share/ament_index/resource_index/packages
+[1.965s] symbolically linking /home/mhsp/Documents/thiago_ws/build/criar_pkg/resource/criar_pkg -> /home/mhsp/Documents/thiago_ws/install/criar_pkg/share/ament_index/resource_index/packages
+[1.965s] symbolically linking /home/mhsp/Documents/thiago_ws/build/criar_pkg/package.xml -> /home/mhsp/Documents/thiago_ws/install/criar_pkg/share/criar_pkg
+[1.995s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/criar_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/criar_pkg/build --no-deps symlink_data

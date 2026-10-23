@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/br2_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/br2_gazebo_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/br2_gazebo_worlds
+[0.496s] -- The C compiler identification is GNU 13.3.0
+[0.496s] -- The CXX compiler identification is GNU 13.3.0
+[0.496s] -- Detecting C compiler ABI info
+[0.497s] -- Detecting C compiler ABI info - done
+[0.497s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.497s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.497s] -- Detecting CXX compiler ABI info
+[0.501s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.502s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.502s]   CMake.
+[0.502s] 
+[0.502s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.502s]   CMake that the project does not need compatibility with older versions.
+[0.502s] 
+[0.502s] [0m
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.548s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.737s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.835s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.878s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.014s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.098s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.099s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.110s] -- Added test 'lint_cmake' to check CMake code style
+[1.116s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.160s] -- Added test 'xmllint' to check XML markup files
+[1.163s] -- Configuring done (1.1s)
+[1.165s] -- Generating done (0.0s)
+[1.167s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/br2_gazebo_worlds

@@ -1,0 +1,37 @@
+[0.489s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_maps -- -j8 -l8
+[0.602s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_maps -- -j8 -l8
+[0.607s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_maps
+[0.645s] -- Install configuration: ""
+[0.647s] -- Execute custom install script
+[0.651s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/hospital/map.pgm
+[0.651s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/hospital/map.yaml
+[0.651s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco/map.pgm
+[0.652s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco/map.yaml
+[0.653s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/pal_office/map.pgm
+[0.653s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/pal_office/map.yaml
+[0.655s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor/map.pgm
+[0.655s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor/map.yaml
+[0.658s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/small_house/map.pgm
+[0.658s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/small_house/map.yaml
+[0.659s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/small_office/map.pgm
+[0.659s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/small_office/map.yaml
+[0.663s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/small_warehouse/map.pgm
+[0.663s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/small_warehouse/map.yaml
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/willow_garage/map.pgm
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/maps/willow_garage/map.yaml
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/ament_index/resource_index/package_run_dependencies/pal_maps
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/ament_index/resource_index/parent_prefix_path/pal_maps
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/environment/ament_prefix_path.sh
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/environment/ament_prefix_path.dsv
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/environment/path.sh
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/environment/path.dsv
+[0.664s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/local_setup.bash
+[0.665s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/local_setup.sh
+[0.665s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/local_setup.zsh
+[0.665s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/local_setup.dsv
+[0.665s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/package.dsv
+[0.671s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/ament_index/resource_index/packages/pal_maps
+[0.671s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/cmake/pal_mapsConfig.cmake
+[0.671s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/cmake/pal_mapsConfig-version.cmake
+[0.673s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_maps/share/pal_maps/package.xml
+[0.775s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_maps

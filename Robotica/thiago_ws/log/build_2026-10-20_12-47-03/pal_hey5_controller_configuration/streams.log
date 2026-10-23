@@ -1,0 +1,50 @@
+[0.158s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pal_hey5/pal_hey5_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration
+[0.439s] -- The C compiler identification is GNU 13.3.0
+[0.604s] -- The CXX compiler identification is GNU 13.3.0
+[0.619s] -- Detecting C compiler ABI info
+[0.720s] -- Detecting C compiler ABI info - done
+[0.745s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.745s] -- Detecting C compile features
+[0.745s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[0.865s] -- Detecting CXX compiler ABI info - done
+[0.876s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.876s] -- Detecting CXX compile features
+[0.876s] -- Detecting CXX compile features - done
+[0.878s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.093s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.279s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.433s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.433s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.433s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.433s] -- Added test 'lint_cmake' to check CMake code style
+[1.434s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.437s] -- Added test 'xmllint' to check XML markup files
+[1.437s] -- Configuring done (1.3s)
+[1.439s] -- Generating done (0.0s)
+[1.441s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration
+[1.448s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pal_hey5/pal_hey5_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration
+[1.450s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration -- -j8 -l8
+[1.498s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration -- -j8 -l8
+[1.500s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration
+[1.694s] -- Install configuration: ""
+[1.694s] -- Execute custom install script
+[1.694s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/config/pal_hey5_controller.yaml
+[1.694s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/launch/pal_hey5_controller.launch.py
+[1.695s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_hey5_controller_configuration
+[1.695s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_hey5_controller_configuration
+[1.696s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/ament_prefix_path.sh
+[1.697s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/ament_prefix_path.dsv
+[1.699s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/path.sh
+[1.699s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/path.dsv
+[1.699s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.bash
+[1.700s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.sh
+[1.700s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.zsh
+[1.701s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.dsv
+[1.701s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/package.dsv
+[1.701s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/ament_index/resource_index/packages/pal_hey5_controller_configuration
+[1.701s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/cmake/pal_hey5_controller_configurationConfig.cmake
+[1.701s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/cmake/pal_hey5_controller_configurationConfig-version.cmake
+[1.701s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/package.xml
+[1.749s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_hey5_controller_configuration

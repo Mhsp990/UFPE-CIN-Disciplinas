@@ -1,0 +1,79 @@
+[0.052s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/omni_base_description': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/omni_base_description -- -j8 -l8
+[0.141s] Built target ament_cmake_python_symlink_omni_base_description
+[0.493s] running egg_info
+[0.504s] creating omni_base_description.egg-info
+[0.531s] writing omni_base_description.egg-info/PKG-INFO
+[0.531s] writing dependency_links to omni_base_description.egg-info/dependency_links.txt
+[0.531s] writing top-level names to omni_base_description.egg-info/top_level.txt
+[0.531s] writing manifest file 'omni_base_description.egg-info/SOURCES.txt'
+[0.632s] reading manifest file 'omni_base_description.egg-info/SOURCES.txt'
+[0.633s] writing manifest file 'omni_base_description.egg-info/SOURCES.txt'
+[0.688s] Built target ament_cmake_python_build_omni_base_description_egg
+[0.720s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/omni_base_description' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/omni_base_description -- -j8 -l8
+[0.720s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/omni_base_description': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/omni_base_description
+[0.742s] -- Install configuration: ""
+[0.742s] -- Execute custom install script
+[0.742s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/environment/pythonpath.sh
+[0.764s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/environment/pythonpath.dsv
+[0.790s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description-2.0.19-py3.12.egg-info/PKG-INFO
+[0.816s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description-2.0.19-py3.12.egg-info/SOURCES.txt
+[0.834s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description-2.0.19-py3.12.egg-info/dependency_links.txt
+[0.847s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description-2.0.19-py3.12.egg-info/top_level.txt
+[0.861s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description/__init__.py
+[0.870s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description/launch_arguments.py
+[0.882s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/rviz/omni_base.rviz
+[0.893s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/launch/robot_state_publisher.launch.py
+[0.902s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/launch/show.launch.py
+[0.916s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/base/base_antena_link.stl
+[0.923s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/base/base_dock_link.stl
+[0.933s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/base/base_link.stl
+[0.944s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/cameras_add_on/cameras_add_on.stl
+[0.960s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/sensors/hokuyo_urg_04lx_ug01.stl
+[0.982s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/sensors/sick_tim551.stl
+[1.005s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/wheels/suspension_front_link.stl
+[1.021s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/wheels/suspension_rear_link.stl
+[1.042s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/meshes/wheels/wheel_link.stl
+[1.059s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/config/omni_base_configuration.yaml
+[1.084s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/robots/omni_base.urdf.xacro
+[1.100s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[1.128s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/ros2_control/ros2_control.urdf.xacro
+[1.142s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/base/base.gazebo.xacro
+[1.158s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/base/base.urdf.xacro
+[1.171s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/base/base_sensors.urdf.xacro
+[1.183s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/cameras_add_on/base_omni_base_calib.urdf.xacro
+[1.193s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/cameras_add_on/cameras_add_on.urdf.xacro
+[1.203s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/objects/antenna.urdf.xacro
+[1.218s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/courier.urdf.xacro
+[1.234s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/hokuyo_urg_04lx_ug01_laser.gazebo.xacro
+[1.250s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/hokuyo_urg_04lx_ug01_laser.urdf.xacro
+[1.261s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/imu.gazebo.xacro
+[1.286s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/imu.urdf.xacro
+[1.313s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sensors.ros2_control.xacro
+[1.335s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sick_tim551_laser.gazebo.xacro
+[1.352s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sick_tim551_laser.urdf.xacro
+[1.375s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sick_tim561_laser.gazebo.xacro
+[1.393s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sick_tim561_laser.urdf.xacro
+[1.406s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sick_tim571_laser.gazebo.xacro
+[1.417s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/sensors/sick_tim571_laser.urdf.xacro
+[1.442s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/wheels/wheel.gazebo.xacro
+[1.466s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/wheels/wheel.ros2_control.xacro
+[1.551s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/urdf/wheels/wheel.urdf.xacro
+[1.565s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/ament_index/resource_index/package_run_dependencies/omni_base_description
+[1.585s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/ament_index/resource_index/parent_prefix_path/omni_base_description
+[1.638s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/environment/ament_prefix_path.sh
+[1.665s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/environment/ament_prefix_path.dsv
+[1.692s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/environment/path.sh
+[1.710s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/environment/path.dsv
+[1.735s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/local_setup.bash
+[1.759s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/local_setup.sh
+[1.790s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/local_setup.zsh
+[1.817s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/local_setup.dsv
+[1.840s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/package.dsv
+[1.854s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/ament_index/resource_index/packages/omni_base_description
+[1.908s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/cmake/omni_base_descriptionConfig.cmake
+[1.933s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/cmake/omni_base_descriptionConfig-version.cmake
+[1.964s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_description/share/omni_base_description/package.xml
+[2.097s] Listing '/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description'...
+[2.098s] Compiling '/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description/__init__.py'...
+[2.098s] Compiling '/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages/omni_base_description/launch_arguments.py'...
+[2.146s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/omni_base_description' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/omni_base_description

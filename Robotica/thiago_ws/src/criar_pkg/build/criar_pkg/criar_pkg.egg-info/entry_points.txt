@@ -1,0 +1,6 @@
+[console_scripts]
+arm_controller = criar_pkg.control_arm:main
+cmd_thiago = criar_pkg.control_thiago:main
+head_controller = criar_pkg.control_head:main
+image_test = criar_pkg.process_image:main
+laser_test = criar_pkg.process_laser:main

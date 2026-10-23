@@ -1,0 +1,244 @@
+[0.056s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/play_motion2_msgs -- -j8 -l8
+[0.120s] [  1%] Built target play_motion2_msgs__rs
+[0.129s] [  2%] Built target play_motion2_msgs__rosidl_generator_type_description
+[0.141s] [  2%] Built target ament_cmake_python_symlink_play_motion2_msgs
+[0.191s] [  3%] Built target play_motion2_msgs__cpp
+[0.191s] [ 27%] Built target play_motion2_msgs__rosidl_generator_c
+[0.287s] [ 36%] Built target play_motion2_msgs__rosidl_typesupport_introspection_c
+[0.289s] [ 46%] Built target play_motion2_msgs__rosidl_typesupport_c
+[0.294s] [ 55%] Built target play_motion2_msgs__rosidl_typesupport_fastrtps_cpp
+[0.296s] [ 68%] Built target play_motion2_msgs__rosidl_typesupport_fastrtps_c
+[0.297s] [ 74%] Built target play_motion2_msgs__rosidl_typesupport_cpp
+[0.311s] [ 84%] Built target play_motion2_msgs__rosidl_typesupport_introspection_cpp
+[0.371s] [ 84%] Built target play_motion2_msgs
+[0.416s] [ 85%] Built target play_motion2_msgs__py
+[0.422s] [ 93%] Built target play_motion2_msgs__rosidl_generator_py
+[0.422s] [ 96%] Built target play_motion2_msgs_s__rosidl_typesupport_fastrtps_c
+[0.422s] [ 97%] Built target play_motion2_msgs_s__rosidl_typesupport_introspection_c
+[0.422s] [100%] Built target play_motion2_msgs_s__rosidl_typesupport_c
+[0.494s] running egg_info
+[0.516s] writing play_motion2_msgs.egg-info/PKG-INFO
+[0.516s] writing dependency_links to play_motion2_msgs.egg-info/dependency_links.txt
+[0.517s] writing top-level names to play_motion2_msgs.egg-info/top_level.txt
+[0.629s] reading manifest file 'play_motion2_msgs.egg-info/SOURCES.txt'
+[0.629s] writing manifest file 'play_motion2_msgs.egg-info/SOURCES.txt'
+[0.667s] [100%] Built target ament_cmake_python_build_play_motion2_msgs_egg
+[0.767s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/play_motion2_msgs -- -j8 -l8
+[0.768s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/play_motion2_msgs
+[0.781s] -- Install configuration: ""
+[0.783s] -- Execute custom install script
+[0.783s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/ament_index/resource_index/rosidl_interfaces/play_motion2_msgs
+[0.783s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/action/PlayMotion2.json
+[0.784s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/msg/Motion.json
+[0.785s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion.json
+[0.785s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo.json
+[0.785s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady.json
+[0.785s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions.json
+[0.785s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion.json
+[0.786s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__functions.h
+[0.786s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__struct.h
+[0.786s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__type_support.h
+[0.787s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/play_motion2.h
+[0.787s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__functions.h
+[0.788s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__struct.h
+[0.788s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__type_support.h
+[0.789s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/motion.h
+[0.789s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.789s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/add_motion.h
+[0.791s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__functions.h
+[0.791s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__struct.h
+[0.791s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__type_support.h
+[0.791s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__functions.h
+[0.791s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__struct.h
+[0.792s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__type_support.h
+[0.793s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__functions.h
+[0.794s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__struct.h
+[0.795s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__type_support.h
+[0.796s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__functions.h
+[0.796s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__struct.h
+[0.796s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__type_support.h
+[0.796s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__functions.h
+[0.797s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__struct.h
+[0.797s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__type_support.h
+[0.797s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/get_motion_info.h
+[0.797s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/is_motion_ready.h
+[0.797s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/list_motions.h
+[0.797s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/remove_motion.h
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/library_path.sh
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/library_path.dsv
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_fastrtps_c.h
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_c.h
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_fastrtps_c.h
+[0.798s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_fastrtps_c.h
+[0.799s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_fastrtps_c.h
+[0.799s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_fastrtps_c.h
+[0.799s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_fastrtps_c.h
+[0.800s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__builder.hpp
+[0.800s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__struct.hpp
+[0.800s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__traits.hpp
+[0.801s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__type_support.hpp
+[0.801s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/play_motion2.hpp
+[0.801s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__builder.hpp
+[0.802s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__struct.hpp
+[0.803s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__traits.hpp
+[0.803s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__type_support.hpp
+[0.803s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/motion.hpp
+[0.804s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.804s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/add_motion.hpp
+[0.805s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__builder.hpp
+[0.805s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__struct.hpp
+[0.805s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__traits.hpp
+[0.806s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__type_support.hpp
+[0.806s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__builder.hpp
+[0.806s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__struct.hpp
+[0.807s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__traits.hpp
+[0.807s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__type_support.hpp
+[0.807s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__builder.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__struct.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__traits.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__type_support.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__builder.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__struct.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__traits.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__type_support.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__builder.hpp
+[0.808s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__struct.hpp
+[0.809s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__traits.hpp
+[0.809s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__type_support.hpp
+[0.809s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/get_motion_info.hpp
+[0.809s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/is_motion_ready.hpp
+[0.809s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/list_motions.hpp
+[0.809s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/remove_motion.hpp
+[0.812s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_fastrtps_cpp.hpp
+[0.813s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp
+[0.813s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.813s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[0.813s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.814s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_fastrtps_cpp.hpp
+[0.815s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_fastrtps_cpp.hpp
+[0.815s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[0.817s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_introspection_c.h
+[0.819s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h
+[0.819s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.819s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_introspection_c.h
+[0.819s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_introspection_c.h
+[0.820s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_introspection_c.h
+[0.821s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_introspection_c.h
+[0.821s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_introspection_c.h
+[0.823s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_introspection_cpp.hpp
+[0.823s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp
+[0.823s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_introspection_cpp.hpp
+[0.823s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_introspection_cpp.hpp
+[0.823s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_introspection_cpp.hpp
+[0.825s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_introspection_cpp.hpp
+[0.826s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_introspection_cpp.hpp
+[0.826s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/pythonpath.sh
+[0.828s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/pythonpath.dsv
+[0.828s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs-1.5.1-py3.12.egg-info/PKG-INFO
+[0.828s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs-1.5.1-py3.12.egg-info/SOURCES.txt
+[0.828s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs-1.5.1-py3.12.egg-info/dependency_links.txt
+[0.828s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs-1.5.1-py3.12.egg-info/top_level.txt
+[0.829s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/__init__.py
+[0.829s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/_play_motion2_msgs_s.ep.rosidl_typesupport_c.c
+[0.829s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/_play_motion2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.829s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/_play_motion2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.829s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/action/__init__.py
+[0.829s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/action/_play_motion2.py
+[0.830s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/action/_play_motion2_s.c
+[0.830s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/msg/__init__.py
+[0.830s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/msg/_motion.py
+[0.830s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/msg/_motion_s.c
+[0.830s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_c.so
+[0.831s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.831s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_introspection_c.so
+[0.831s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/__init__.py
+[0.831s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_add_motion.py
+[0.832s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_add_motion_s.c
+[0.832s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_get_motion_info.py
+[0.832s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_get_motion_info_s.c
+[0.832s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_is_motion_ready.py
+[0.832s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_is_motion_ready_s.c
+[0.833s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_list_motions.py
+[0.833s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_list_motions_s.c
+[0.834s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_remove_motion.py
+[0.836s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv/_remove_motion_s.c
+[0.836s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.838s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_introspection_c.so
+[0.838s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_c.so
+[0.838s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/Cargo.toml
+[0.838s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/build.rs
+[0.839s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/action.rs
+[0.840s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/action/rmw.rs
+[0.841s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/lib.rs
+[0.841s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/msg.rs
+[0.842s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/msg/rmw.rs
+[0.842s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/srv.rs
+[0.846s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/rust/src/srv/rmw.rs
+[0.846s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/action/PlayMotion2.idl
+[0.847s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/msg/Motion.idl
+[0.847s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion.idl
+[0.848s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo.idl
+[0.848s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady.idl
+[0.850s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions.idl
+[0.851s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion.idl
+[0.851s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/action/PlayMotion2.action
+[0.852s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/msg/Motion.msg
+[0.852s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion.srv
+[0.853s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo.srv
+[0.854s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady.srv
+[0.854s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions.srv
+[0.855s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion.srv
+[0.855s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/ament_index/resource_index/package_run_dependencies/play_motion2_msgs
+[0.855s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/ament_index/resource_index/parent_prefix_path/play_motion2_msgs
+[0.856s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/ament_prefix_path.sh
+[0.856s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/ament_prefix_path.dsv
+[0.856s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/path.sh
+[0.856s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/path.dsv
+[0.856s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.bash
+[0.856s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.sh
+[0.857s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.zsh
+[0.857s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.dsv
+[0.857s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/package.dsv
+[0.857s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/ament_index/resource_index/packages/play_motion2_msgs
+[0.858s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake-extras.cmake
+[0.858s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.858s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.858s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.859s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.860s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.860s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.860s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.861s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgsConfig.cmake
+[0.861s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgsConfig-version.cmake
+[0.861s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/package.xml
+[0.861s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_generator_c.so
+[0.862s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_fastrtps_c.so
+[0.863s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.863s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_introspection_c.so
+[0.864s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_c.so
+[0.864s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_introspection_cpp.so
+[0.864s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_cpp.so
+[0.889s] Listing '/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs'...
+[0.889s] Listing '/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/action'...
+[0.890s] Listing '/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/msg'...
+[0.890s] Listing '/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages/play_motion2_msgs/srv'...
+[0.897s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_generator_py.so
+[0.897s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_cExport.cmake
+[0.898s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.898s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.899s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.899s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_cppExport.cmake
+[0.899s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.900s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.900s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.900s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.900s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cExport.cmake
+[0.901s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.901s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.902s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.902s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cppExport.cmake
+[0.902s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.903s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_pyExport.cmake
+[0.903s] -- Up-to-date: /home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.904s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/play_motion2_msgs

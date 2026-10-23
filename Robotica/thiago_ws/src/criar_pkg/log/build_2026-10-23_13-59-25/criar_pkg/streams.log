@@ -1,0 +1,21 @@
+[2.015s] Invoking command in '/home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg/build --no-deps symlink_data
+[2.474s] running develop
+[2.784s] running egg_info
+[2.813s] writing criar_pkg.egg-info/PKG-INFO
+[2.814s] writing dependency_links to criar_pkg.egg-info/dependency_links.txt
+[2.814s] writing entry points to criar_pkg.egg-info/entry_points.txt
+[2.815s] writing requirements to criar_pkg.egg-info/requires.txt
+[2.815s] writing top-level names to criar_pkg.egg-info/top_level.txt
+[2.874s] reading manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[2.876s] writing manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[2.904s] running build_ext
+[2.905s] Creating /home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/python3.12/site-packages/criar-pkg.egg-link (link to .)
+[2.980s] Installing arm_controller script to /home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/criar_pkg
+[2.981s] Installing cmd_thiago script to /home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/criar_pkg
+[2.981s] Installing head_controller script to /home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/criar_pkg
+[2.981s] Installing image_test script to /home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/criar_pkg
+[2.981s] Installing laser_test script to /home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/criar_pkg
+[2.981s] 
+[2.981s] Installed /home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg
+[2.981s] running symlink_data
+[3.091s] Invoked command in '/home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/src/criar_pkg/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/src/criar_pkg/build/criar_pkg/build --no-deps symlink_data

@@ -1,0 +1,176 @@
+[0.008s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/play_motion2': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/play_motion2
+[0.072s] -- The C compiler identification is GNU 13.3.0
+[0.177s] -- The CXX compiler identification is GNU 13.3.0
+[0.204s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.565s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.595s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.843s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.929s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.143s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.166s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.644s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.876s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.956s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.017s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.022s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.131s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.164s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.209s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.308s] -- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+[2.319s] -- Found rclcpp_lifecycle: 28.1.22 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.338s] -- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.432s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.432s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.650s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.708s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.740s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.896s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[3.096s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.330s] -- Found PythonExtra: /usr/bin/python3  
+[3.392s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.399s] -- Found Threads: TRUE  
+[3.423s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/play_motion2` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.429s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.431s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.433s] -- Configured cppcheck include dirs: /home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include
+[3.433s] -- Configured cppcheck exclude dirs and/or files: 
+[3.434s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.435s] -- Configured cpplint exclude dirs and/or files: 
+[3.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.435s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.436s] -- Added test 'lint_cmake' to check CMake code style
+[3.437s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.439s] -- Added test 'uncrustify' to check C / C++ code style
+[3.439s] -- Configured uncrustify additional arguments: 
+[3.439s] -- Added test 'xmllint' to check XML markup files
+[3.443s] -- Configuring done (3.4s)
+[3.606s] -- Generating done (0.1s)
+[3.637s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/play_motion2
+[3.655s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/play_motion2' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/play_motion2
+[3.656s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/play_motion2': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/play_motion2 -- -j8 -l8
+[3.713s] [ 11%] [32mBuilding CXX object CMakeFiles/play_motion2.dir/src/play_motion2/motion_loader.cpp.o[0m
+[3.713s] [ 11%] [32mBuilding CXX object CMakeFiles/play_motion2.dir/src/play_motion2/play_motion2.cpp.o[0m
+[3.713s] [ 11%] [32mBuilding CXX object CMakeFiles/play_motion2.dir/src/play_motion2/motion_planner.cpp.o[0m
+[3.715s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.718s] [ 19%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mhsp/Documents/thiago_ws/build/play_motion2/include/play_motion2/passthrough_controller_parameters.hpp /home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/test/controllers/src/passthrough_controller_parameters.yaml `[0m
+[3.718s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.745s] [ 26%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.836s] [ 30%] [34m[1mCreating deprecated header file /home/mhsp/Documents/thiago_ws/build/play_motion2/include/passthrough_controller_parameters.hpp[0m
+[4.855s] [ 30%] Built target passthrough_controller_parameters
+[4.885s] [ 34%] [32mBuilding CXX object CMakeFiles/passthrough_controller.dir/test/controllers/src/passthrough_controller.cpp.o[0m
+[4.952s] [ 34%] Built target gtest_main
+[5.025s] In file included from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/motion_planner.hpp:25[m[K,
+[5.026s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/src/play_motion2/motion_planner.cpp:18[m[K:
+[5.026s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.026s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.026s]       |                                                                             [01;36m[K^[m[K
+[5.383s] In file included from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/motion_planner.hpp:25[m[K,
+[5.383s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/src/play_motion2/play_motion2.cpp:18[m[K:
+[5.383s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.383s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.383s]       |                                                                             [01;36m[K^[m[K
+[7.900s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.980s] [ 38%] Built target gtest
+[8.001s] [ 42%] [32mBuilding CXX object CMakeFiles/play_motion2_node_test.dir/test/play_motion2_node_test.cpp.o[0m
+[8.857s] [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/src/play_motion2/motion_planner.cpp:[m[K In constructor ‘[01m[Kplay_motion2::MotionPlanner::[01;32m[KMotionPlanner[m[K(rclcpp_lifecycle::LifecycleNode::SharedPtr)[m[K’:
+[8.857s] [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/src/play_motion2/motion_planner.cpp:78:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp_lifecycle::LifecycleNode::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = controller_manager_msgs::srv::ListControllers; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<controller_manager_msgs::srv::ListControllers> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.858s]    78 |   list_controllers_client_ = [01;35m[Knode_->create_client<ListControllers>([m[K
+[8.858s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[8.858s]    79 | [01;35m[K    "/controller_manager/list_controllers", rmw_qos_profile_default, motion_planner_cb_group_)[m[K;
+[8.858s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.858s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:1136[m[K,
+[8.858s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/motion_planner.hpp:29[m[K:
+[8.858s] [01m[K/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:125:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.858s]   125 | [01;36m[KLifecycleNode[m[K::create_client(
+[8.859s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[13.936s] [ 46%] [32m[1mLinking CXX shared library libpassthrough_controller.so[0m
+[14.373s] [ 46%] Built target passthrough_controller
+[21.258s] [ 50%] [32m[1mLinking CXX executable play_motion2_node_test[0m
+[21.889s] [ 50%] Built target play_motion2_node_test
+[21.978s] [ 53%] [32m[1mLinking CXX shared library libplay_motion2.so[0m
+[23.090s] [ 53%] Built target play_motion2
+[23.109s] [ 57%] [32mBuilding CXX object CMakeFiles/client.dir/src/play_motion2/client.cpp.o[0m
+[29.542s] [ 61%] [32m[1mLinking CXX static library libclient.a[0m
+[29.687s] [ 61%] Built target client
+[29.721s] [ 65%] [32mBuilding CXX object CMakeFiles/play_motion2_node.dir/src/play_motion2_main.cpp.o[0m
+[29.721s] [ 73%] [32mBuilding CXX object CMakeFiles/rrbot_system.dir/test/rrbot/rrbot_system.cpp.o[0m
+[29.722s] [ 73%] [32mBuilding CXX object CMakeFiles/run_motion.dir/src/run_motion.cpp.o[0m
+[30.793s] In file included from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/motion_planner.hpp:25[m[K,
+[30.793s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/play_motion2.hpp:24[m[K,
+[30.794s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/src/play_motion2_main.cpp:16[m[K:
+[30.794s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[30.794s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[30.794s]       |                                                                       [01;36m[K^[m[K
+[30.794s] 
+[32.100s] [ 76%] [32m[1mLinking CXX executable run_motion[0m
+[33.022s] [ 76%] Built target run_motion
+[34.458s] [ 80%] [32m[1mLinking CXX shared library librrbot_system.so[0m
+[34.873s] [ 80%] Built target rrbot_system
+[34.894s] [ 88%] [32mBuilding CXX object CMakeFiles/play_motion2_test.dir/test/play_motion2_test.cpp.o[0m
+[34.895s] [ 88%] [32mBuilding CXX object CMakeFiles/motion_loader_test.dir/test/motion_loader_test.cpp.o[0m
+[36.289s] In file included from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/motion_planner.hpp:25[m[K,
+[36.289s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/include/play_motion2/play_motion2.hpp:24[m[K,
+[36.289s]                  from [01m[K/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2/test/play_motion2_test.cpp:22[m[K:
+[36.289s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[36.289s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[36.289s]       |                                                                             [01;36m[K^[m[K
+[36.660s] [ 92%] [32m[1mLinking CXX executable play_motion2_node[0m
+[37.617s] [ 92%] Built target play_motion2_node
+[38.752s] [ 96%] [32m[1mLinking CXX executable motion_loader_test[0m
+[40.057s] [ 96%] Built target motion_loader_test
+[43.386s] [100%] [32m[1mLinking CXX executable play_motion2_test[0m
+[44.857s] [100%] Built target play_motion2_test
+[44.871s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/play_motion2' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/play_motion2 -- -j8 -l8
+[44.873s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/play_motion2': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/play_motion2
+[44.884s] -- Install configuration: ""
+[44.885s] -- Execute custom install script
+[44.885s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/test/rrbot/rrbot_system.xml
+[44.900s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/include/play_motion2/passthrough_controller_parameters.hpp
+[44.910s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/test/controllers/passthrough_controller.xml
+[44.919s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/libpassthrough_controller.so
+[44.930s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/play_motion2/play_motion2_node_test
+[44.946s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/include/play_motion2/client.hpp
+[44.961s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/include/play_motion2/motion_loader.hpp
+[44.975s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/include/play_motion2/motion_planner.hpp
+[44.983s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/include/play_motion2/play_motion2.hpp
+[44.994s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/include/play_motion2/types.hpp
+[45.004s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/environment/library_path.sh
+[45.018s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/environment/library_path.dsv
+[45.038s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/libplay_motion2.so
+[45.056s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/libclient.a
+[45.074s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/librrbot_system.so
+[45.092s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/play_motion2/play_motion2_node
+[45.111s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/lib/play_motion2/run_motion
+[45.123s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/config/motion_planner_config.yaml
+[45.136s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/launch/play_motion2.launch.py
+[45.147s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/ament_index/resource_index/package_run_dependencies/play_motion2
+[45.161s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/ament_index/resource_index/parent_prefix_path/play_motion2
+[45.176s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/environment/ament_prefix_path.sh
+[45.192s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/environment/ament_prefix_path.dsv
+[45.207s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/environment/path.sh
+[45.218s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/environment/path.dsv
+[45.232s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/local_setup.bash
+[45.248s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/local_setup.sh
+[45.265s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/local_setup.zsh
+[45.280s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/local_setup.dsv
+[45.298s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/package.dsv
+[45.311s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/ament_index/resource_index/packages/play_motion2
+[45.331s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/play_motion2
+[45.347s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/ament_index/resource_index/controller_interface__pluginlib__plugin/play_motion2
+[45.362s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.378s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.395s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_libraries-extras.cmake
+[45.403s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/cmake/play_motion2Config.cmake
+[45.414s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/cmake/play_motion2Config-version.cmake
+[45.423s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/play_motion2/share/play_motion2/package.xml
+[45.432s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/play_motion2' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/play_motion2

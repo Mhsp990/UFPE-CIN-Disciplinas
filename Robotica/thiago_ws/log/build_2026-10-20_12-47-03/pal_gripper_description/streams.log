@@ -1,0 +1,35 @@
+[0.066s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pal_gripper_description
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.220s] -- The CXX compiler identification is GNU 13.3.0
+[0.255s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.403s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.766s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.871s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.921s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.921s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.921s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.921s]   CMake did not find one.
+[0.921s] 
+[0.921s]   Could not find a package configuration file provided by "xacro" with any of
+[0.921s]   the following names:
+[0.921s] 
+[0.921s]     xacroConfig.cmake
+[0.922s]     xacro-config.cmake
+[0.926s] 
+[0.926s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.926s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.926s]   provides a separate development package or SDK, be sure it has been
+[0.926s]   installed.
+[0.926s] 
+[0.927s] [0m
+[0.927s] -- Configuring incomplete, errors occurred!
+[0.930s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_gripper_description' returned '1': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pal_gripper_description

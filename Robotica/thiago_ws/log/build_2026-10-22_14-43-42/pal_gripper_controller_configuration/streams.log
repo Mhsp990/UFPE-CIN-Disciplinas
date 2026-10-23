@@ -1,0 +1,33 @@
+[0.780s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration -- -j8 -l8
+[0.944s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration -- -j8 -l8
+[0.957s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration
+[1.033s] -- Install configuration: ""
+[1.033s] -- Execute custom install script
+[1.036s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers.yaml
+[1.036s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers_left.yaml
+[1.068s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers_right.yaml
+[1.068s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/gazebo_controller_manager_cfg.yaml
+[1.068s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/gripper_controller.yaml
+[1.068s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/joint_state_broadcaster.yaml
+[1.070s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/joint_trajectory_controllers.yaml
+[1.070s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/pids.yaml
+[1.070s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/current_limit_controllers.launch
+[1.071s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/gripper_controller.launch
+[1.071s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/joint_state_broadcaster.launch.py
+[1.072s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/pal_gripper_controller.launch.py
+[1.072s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_gripper_controller_configuration
+[1.072s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_gripper_controller_configuration
+[1.072s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/ament_prefix_path.sh
+[1.073s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/ament_prefix_path.dsv
+[1.073s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/path.sh
+[1.074s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/path.dsv
+[1.074s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.bash
+[1.075s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.sh
+[1.075s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.zsh
+[1.076s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.dsv
+[1.076s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/package.dsv
+[1.095s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/packages/pal_gripper_controller_configuration
+[1.098s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/cmake/pal_gripper_controller_configurationConfig.cmake
+[1.099s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/cmake/pal_gripper_controller_configurationConfig-version.cmake
+[1.099s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/package.xml
+[1.252s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_gripper_controller_configuration

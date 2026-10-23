@@ -1,0 +1,1 @@
+/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils/ament_cmake_environment_hooks/local_setup.bash

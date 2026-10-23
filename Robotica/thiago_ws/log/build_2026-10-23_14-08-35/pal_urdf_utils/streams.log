@@ -1,0 +1,24 @@
+[0.165s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils -- -j8 -l8
+[0.653s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils -- -j8 -l8
+[0.685s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils
+[0.706s] -- Install configuration: ""
+[0.706s] -- Execute custom install script
+[0.706s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/deg_to_rad.urdf.xacro
+[0.706s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/materials.urdf.xacro
+[0.709s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/pi.urdf.xacro
+[0.709s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/ament_index/resource_index/package_run_dependencies/pal_urdf_utils
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/ament_index/resource_index/parent_prefix_path/pal_urdf_utils
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.sh
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.dsv
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.sh
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.dsv
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.bash
+[0.710s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.sh
+[0.711s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.zsh
+[0.713s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.dsv
+[0.713s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.dsv
+[0.747s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/ament_index/resource_index/packages/pal_urdf_utils
+[0.747s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig.cmake
+[0.748s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig-version.cmake
+[0.750s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.xml
+[0.754s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils

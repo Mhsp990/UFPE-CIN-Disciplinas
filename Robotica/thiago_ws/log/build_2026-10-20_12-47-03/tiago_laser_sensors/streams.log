@@ -1,0 +1,22 @@
+[0.026s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/tiago_navigation/tiago_laser_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors
+[0.100s] -- The C compiler identification is GNU 13.3.0
+[0.180s] -- The CXX compiler identification is GNU 13.3.0
+[0.202s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.346s] -- Detecting C compile features - done
+[0.364s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.506s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.703s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.797s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.964s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.967s] -- Added test 'lint_cmake' to check CMake code style
+[0.968s] -- Added test 'xmllint' to check XML markup files
+[0.971s] -- Configuring done (0.9s)
+[0.975s] -- Generating done (0.0s)
+[0.978s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors

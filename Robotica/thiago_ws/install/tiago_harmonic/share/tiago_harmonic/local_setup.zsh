@@ -1,0 +1,1 @@
+/home/mhsp/Documents/thiago_ws/build/tiago_harmonic/ament_cmake_environment_hooks/local_setup.zsh

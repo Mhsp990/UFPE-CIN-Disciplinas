@@ -1,0 +1,18 @@
+[2.548s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/criar_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/criar_pkg/build --no-deps symlink_data
+[3.142s] running develop
+[3.481s] running egg_info
+[3.515s] writing criar_pkg.egg-info/PKG-INFO
+[3.516s] writing dependency_links to criar_pkg.egg-info/dependency_links.txt
+[3.516s] writing entry points to criar_pkg.egg-info/entry_points.txt
+[3.517s] writing requirements to criar_pkg.egg-info/requires.txt
+[3.517s] writing top-level names to criar_pkg.egg-info/top_level.txt
+[3.588s] reading manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[3.673s] writing manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[3.711s] running build_ext
+[3.713s] Creating /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages/criar-pkg.egg-link (link to .)
+[3.721s] Installing cmd_thiago script to /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/criar_pkg
+[3.721s] Installing laser_test script to /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/criar_pkg
+[3.723s] 
+[3.723s] Installed /home/mhsp/Documents/thiago_ws/build/criar_pkg
+[3.723s] running symlink_data
+[3.838s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/criar_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/criar_pkg/build --no-deps symlink_data

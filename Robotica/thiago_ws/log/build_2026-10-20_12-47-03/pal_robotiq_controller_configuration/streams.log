@@ -1,0 +1,50 @@
+[0.156s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pal_robotiq_gripper/pal_robotiq_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration
+[1.351s] -- The C compiler identification is GNU 13.3.0
+[1.351s] -- The CXX compiler identification is GNU 13.3.0
+[1.351s] -- Detecting C compiler ABI info
+[1.351s] -- Detecting C compiler ABI info - done
+[1.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.351s] -- Detecting C compile features
+[1.352s] -- Detecting C compile features - done
+[1.352s] -- Detecting CXX compiler ABI info
+[1.352s] -- Detecting CXX compiler ABI info - done
+[1.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.352s] -- Detecting CXX compile features
+[1.352s] -- Detecting CXX compile features - done
+[1.354s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.354s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.354s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.373s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.401s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.403s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.404s] -- Added test 'lint_cmake' to check CMake code style
+[1.406s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.406s] -- Added test 'xmllint' to check XML markup files
+[1.411s] -- Configuring done (1.2s)
+[1.417s] -- Generating done (0.0s)
+[1.419s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration
+[1.427s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/pal_robotiq_gripper/pal_robotiq_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration
+[1.429s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration -- -j8 -l8
+[1.473s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration -- -j8 -l8
+[1.474s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration
+[1.494s] -- Install configuration: ""
+[1.494s] -- Execute custom install script
+[1.494s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/config/robotiq_gripper_controller.yaml
+[1.496s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/launch/robotiq_gripper_controller.launch.py
+[1.505s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_controller_configuration
+[1.513s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_controller_configuration
+[1.519s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/ament_prefix_path.sh
+[1.530s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/ament_prefix_path.dsv
+[1.536s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/path.sh
+[1.550s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/path.dsv
+[1.558s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.bash
+[1.573s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.sh
+[1.584s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.zsh
+[1.592s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.dsv
+[1.601s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/package.dsv
+[1.613s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/packages/pal_robotiq_controller_configuration
+[1.619s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/cmake/pal_robotiq_controller_configurationConfig.cmake
+[1.628s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/cmake/pal_robotiq_controller_configurationConfig-version.cmake
+[1.637s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/package.xml
+[1.656s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_robotiq_controller_configuration

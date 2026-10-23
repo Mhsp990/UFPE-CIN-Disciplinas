@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-96eb12d0288d53527de9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "play_motion2_msgs__py",
+					"jsonFile" : "directory-play_motion2_msgs__py-7ce9a83067ebeada8e2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs/play_motion2_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "play_motion2_msgs__rs",
+					"jsonFile" : "directory-play_motion2_msgs__rs-f1c713b30b1906cc49f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs/play_motion2_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "play_motion2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_play_motion2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_play_motion2_msgs_egg-e334a3691bcc2a9f8b43.json",
+					"name" : "ament_cmake_python_build_play_motion2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_play_motion2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_play_motion2_msgs-3f14159b3f127b45d88b.json",
+					"name" : "ament_cmake_python_symlink_play_motion2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs-4c653e4d48d60acd8440.json",
+					"name" : "play_motion2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__cpp-6693b971775f8a5d14ed.json",
+					"name" : "play_motion2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "play_motion2_msgs__py::@3a3bbdf00d2359079efc",
+					"jsonFile" : "target-play_motion2_msgs__py-e50f898b8956e2f9df69.json",
+					"name" : "play_motion2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_generator_c-3337d81acc7b8d2c0d64.json",
+					"name" : "play_motion2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_generator_py-99337c81a86386c08021.json",
+					"name" : "play_motion2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_generator_type_description-b0383587b7d65e372300.json",
+					"name" : "play_motion2_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_typesupport_c-39a768591fee61b08469.json",
+					"name" : "play_motion2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_typesupport_cpp-66a429e4ebccecd76888.json",
+					"name" : "play_motion2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_typesupport_fastrtps_c-2b2a7519f22ca8eacbdf.json",
+					"name" : "play_motion2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_typesupport_fastrtps_cpp-61de79840ca3ac83cb1f.json",
+					"name" : "play_motion2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_typesupport_introspection_c-c91748609460e53be541.json",
+					"name" : "play_motion2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs__rosidl_typesupport_introspection_cpp-4cc180309644db76f208.json",
+					"name" : "play_motion2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "play_motion2_msgs__rs::@fdeb02010bc64a6db752",
+					"jsonFile" : "target-play_motion2_msgs__rs-a8d902b2b18d34213018.json",
+					"name" : "play_motion2_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs_s__rosidl_typesupport_c-f80c3c24d30f679f1dcd.json",
+					"name" : "play_motion2_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs_s__rosidl_typesupport_fastrtps_c-0e4c385b7b3b2bc5625b.json",
+					"name" : "play_motion2_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs_s__rosidl_typesupport_introspection_c-47194f9d6fb4517ba3e0.json",
+					"name" : "play_motion2_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_msgs_uninstall-24475f43ec2bdd5a4e80.json",
+					"name" : "play_motion2_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6231661a8692a13e1f0e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs",
+		"source" : "/home/mhsp/Documents/thiago_ws/src/play_motion2/play_motion2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

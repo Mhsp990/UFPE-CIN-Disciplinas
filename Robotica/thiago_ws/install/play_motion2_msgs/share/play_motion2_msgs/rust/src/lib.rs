@@ -1,0 +1,1 @@
+/home/mhsp/Documents/thiago_ws/build/play_motion2_msgs/rosidl_generator_rs/play_motion2_msgs/rust/src/lib.rs

@@ -1,0 +1,144 @@
+[0.039s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/tiago_description': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/tiago_robot/tiago_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/tiago_description
+[0.224s] -- The C compiler identification is GNU 13.3.0
+[0.406s] -- The CXX compiler identification is GNU 13.3.0
+[0.464s] -- Detecting C compiler ABI info
+[0.689s] -- Detecting C compiler ABI info - done
+[0.712s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.714s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[0.912s] -- Detecting CXX compiler ABI info - done
+[0.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.933s] -- Detecting CXX compile features
+[0.937s] -- Detecting CXX compile features - done
+[0.942s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.211s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.344s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.565s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.620s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.790s] -- Found PythonExtra: /usr/bin/python3  
+[1.843s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.853s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.853s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.855s] -- Added test 'lint_cmake' to check CMake code style
+[1.858s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.863s] -- Added test 'xmllint' to check XML markup files
+[1.867s] -- Configuring done (1.8s)
+[1.873s] -- Generating done (0.0s)
+[1.876s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/tiago_description
+[1.899s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/tiago_robot/tiago_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/tiago_description
+[1.900s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/tiago_description': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/tiago_description -- -j8 -l8
+[1.955s] Built target ament_cmake_python_symlink_tiago_description
+[2.219s] running egg_info
+[2.220s] creating tiago_description.egg-info
+[2.245s] writing tiago_description.egg-info/PKG-INFO
+[2.245s] writing dependency_links to tiago_description.egg-info/dependency_links.txt
+[2.245s] writing top-level names to tiago_description.egg-info/top_level.txt
+[2.245s] writing manifest file 'tiago_description.egg-info/SOURCES.txt'
+[2.338s] reading manifest file 'tiago_description.egg-info/SOURCES.txt'
+[2.339s] writing manifest file 'tiago_description.egg-info/SOURCES.txt'
+[2.365s] Built target ament_cmake_python_build_tiago_description_egg
+[2.375s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/tiago_description -- -j8 -l8
+[2.376s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/tiago_description': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/tiago_description
+[2.383s] -- Install configuration: ""
+[2.384s] -- Execute custom install script
+[2.384s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/environment/pythonpath.sh
+[2.393s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/environment/pythonpath.dsv
+[2.401s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description-4.2.20-py3.12.egg-info/PKG-INFO
+[2.410s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description-4.2.20-py3.12.egg-info/SOURCES.txt
+[2.417s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description-4.2.20-py3.12.egg-info/dependency_links.txt
+[2.426s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description-4.2.20-py3.12.egg-info/top_level.txt
+[2.436s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description/__init__.py
+[2.444s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description/launch_arguments.py
+[2.452s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description/tiago_launch_utils.py
+[2.460s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/launch/robot_state_publisher.launch.py
+[2.469s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/launch/show.launch.py
+[2.477s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1.stl
+[2.488s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_collision.dae
+[2.497s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_color.png
+[2.507s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_normals.png
+[2.515s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_specular.png
+[2.525s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2.stl
+[2.534s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_collision.dae
+[2.542s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_color.png
+[2.550s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_normals.png
+[2.558s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_specular.png
+[2.566s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3.stl
+[2.574s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_collision.dae
+[2.585s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_color.png
+[2.594s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_normals.png
+[2.602s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_specular.png
+[2.611s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4.stl
+[2.619s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_collision.dae
+[2.627s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_collision.stl
+[2.635s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_color.png
+[2.644s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_normals.png
+[2.654s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_specular.png
+[2.664s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5-wrist-2010.stl
+[2.673s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5-wrist-2017.stl
+[2.685s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5_collision-wrist-2010.dae
+[2.697s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5_collision-wrist-2017.dae
+[2.705s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6-wrist-2010.stl
+[2.713s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6-wrist-2017.stl
+[2.722s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_collision-wrist-2010.dae
+[2.730s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_collision-wrist-2017.dae
+[2.739s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_color.png
+[2.748s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_normals.png
+[2.757s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_specular.png
+[2.769s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/head/head_1.stl
+[2.779s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/head/head_1_collision.dae
+[2.787s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/head/head_2.stl
+[2.795s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/head/head_2_collision.dae
+[2.806s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/sensors/xtion_pro_live/xtion_pro_live.dae
+[2.813s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/sensors/xtion_pro_live/xtion_pro_live.png
+[2.821s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_fix.stl
+[2.832s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision.dae
+[2.843s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_core.dae
+[2.853s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_neck.dae
+[2.861s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_shoulder.dae
+[2.873s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_with_arm.stl
+[2.884s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_without_arm.stl
+[2.895s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/robots/tiago.urdf.xacro
+[2.905s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[2.915s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/ros2_control/ros2_control.urdf.xacro
+[2.925s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/ros2_control/transmissions.urdf.xacro
+[2.933s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/arm/arm.ros2_control.xacro
+[2.944s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/arm/arm.urdf.xacro
+[2.956s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/arm/wrist.ros2_control.xacro
+[2.966s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/arm/wrist.urdf.xacro
+[2.975s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/calibration/calibration_constants.urdf.xacro
+[2.984s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/calibration/extrinsic_camera_calibration_constants.urdf.xacro
+[2.992s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/end_effector/end_effector.urdf.xacro
+[3.001s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/head/head.ros2_control.xacro
+[3.009s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/head/head.urdf.xacro
+[3.017s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.gazebo.xacro
+[3.025s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.ros2_control.xacro
+[3.033s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.urdf.xacro
+[3.041s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/sensors/openni.gazebo.xacro
+[3.050s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/sensors/orbbec_astra.urdf.xacro
+[3.058s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/sensors/xtion_pro_live.urdf.xacro
+[3.066s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/torso/torso.ros2_control.xacro
+[3.075s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/urdf/torso/torso.urdf.xacro
+[3.085s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/config/tiago.rviz
+[3.093s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/config/tiago_configuration.yaml
+[3.103s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/config/urdf.rviz
+[3.113s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/ament_index/resource_index/package_run_dependencies/tiago_description
+[3.121s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/ament_index/resource_index/parent_prefix_path/tiago_description
+[3.131s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/environment/ament_prefix_path.sh
+[3.138s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/environment/ament_prefix_path.dsv
+[3.146s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/environment/path.sh
+[3.154s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/environment/path.dsv
+[3.162s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/local_setup.bash
+[3.171s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/local_setup.sh
+[3.178s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/local_setup.zsh
+[3.186s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/local_setup.dsv
+[3.195s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/package.dsv
+[3.205s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/ament_index/resource_index/packages/tiago_description
+[3.213s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/cmake/tiago_descriptionConfig.cmake
+[3.221s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/cmake/tiago_descriptionConfig-version.cmake
+[3.230s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_description/share/tiago_description/package.xml
+[3.279s] Listing '/home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description'...
+[3.279s] Compiling '/home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description/__init__.py'...
+[3.279s] Compiling '/home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description/launch_arguments.py'...
+[3.280s] Compiling '/home/mhsp/Documents/thiago_ws/install/tiago_description/lib/python3.12/site-packages/tiago_description/tiago_launch_utils.py'...
+[3.288s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/home/mhsp/Documents/thiago_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description:/home/mhsp/Documents/thiago_ws/install/pal_hey5_description:/home/mhsp/Documents/thiago_ws/install/pal_gripper_description:/home/mhsp/Documents/thiago_ws/install/omni_base_description:/home/mhsp/Documents/thiago_ws/install/pal_urdf_utils:/home/mhsp/Documents/thiago_ws/install/pal_robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/install/pmb2_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/install/omni_base_description/lib/python3.12/site-packages:/home/mhsp/Documents/thiago_ws/build/launch_pal:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/tiago_description

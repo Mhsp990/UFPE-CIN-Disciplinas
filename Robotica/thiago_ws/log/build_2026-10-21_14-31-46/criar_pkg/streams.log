@@ -1,0 +1,17 @@
+[1.256s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/criar_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/criar_pkg/build --no-deps symlink_data
+[1.606s] running develop
+[1.836s] running egg_info
+[1.857s] writing criar_pkg.egg-info/PKG-INFO
+[1.857s] writing dependency_links to criar_pkg.egg-info/dependency_links.txt
+[1.858s] writing entry points to criar_pkg.egg-info/entry_points.txt
+[1.858s] writing requirements to criar_pkg.egg-info/requires.txt
+[1.858s] writing top-level names to criar_pkg.egg-info/top_level.txt
+[1.899s] reading manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[1.900s] writing manifest file 'criar_pkg.egg-info/SOURCES.txt'
+[1.924s] running build_ext
+[1.924s] Creating /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages/criar-pkg.egg-link (link to .)
+[1.925s] Installing cmd_thiago script to /home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/criar_pkg
+[1.925s] 
+[1.925s] Installed /home/mhsp/Documents/thiago_ws/build/criar_pkg
+[1.925s] running symlink_data
+[1.955s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/criar_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/criar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/criar_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/criar_pkg/build --no-deps symlink_data

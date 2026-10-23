@@ -1,0 +1,24 @@
+[0.178s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils -- -j8 -l8
+[0.848s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils -- -j8 -l8
+[0.884s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils
+[0.917s] -- Install configuration: ""
+[0.918s] -- Execute custom install script
+[0.920s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/deg_to_rad.urdf.xacro
+[0.921s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/materials.urdf.xacro
+[0.922s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/pi.urdf.xacro
+[0.922s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/ament_index/resource_index/package_run_dependencies/pal_urdf_utils
+[0.923s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/ament_index/resource_index/parent_prefix_path/pal_urdf_utils
+[0.923s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.sh
+[0.924s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.dsv
+[0.925s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.sh
+[0.926s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.dsv
+[0.927s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.bash
+[0.929s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.sh
+[0.930s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.zsh
+[0.930s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.dsv
+[0.930s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.dsv
+[0.963s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/ament_index/resource_index/packages/pal_urdf_utils
+[0.963s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig.cmake
+[0.963s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig-version.cmake
+[0.963s] -- Up-to-date symlink: /home/mhsp/Documents/thiago_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.xml
+[1.025s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhsp/Documents/thiago_ws/install/launch_pal:/home/mhsp/Documents/thiago_ws/install/criar_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/pal_urdf_utils

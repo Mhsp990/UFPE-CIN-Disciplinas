@@ -1,0 +1,15 @@
+[1.747s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/launch_pal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/launch_pal/build --no-deps symlink_data
+[2.270s] running develop
+[2.606s] running egg_info
+[2.645s] writing launch_pal.egg-info/PKG-INFO
+[2.645s] writing dependency_links to launch_pal.egg-info/dependency_links.txt
+[2.645s] writing requirements to launch_pal.egg-info/requires.txt
+[2.645s] writing top-level names to launch_pal.egg-info/top_level.txt
+[2.756s] reading manifest file 'launch_pal.egg-info/SOURCES.txt'
+[2.758s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[2.831s] running build_ext
+[2.832s] Creating /home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages/launch-pal.egg-link (link to .)
+[2.834s] 
+[2.834s] Installed /home/mhsp/Documents/thiago_ws/build/launch_pal
+[2.834s] running symlink_data
+[2.887s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/launch_pal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/thiago_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/thiago_ws/install/launch_pal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/thiago_ws/build/launch_pal/build --no-deps symlink_data

@@ -1,0 +1,52 @@
+[0.160s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/tiago_omni_base/omni_base_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration
+[0.443s] -- The C compiler identification is GNU 13.3.0
+[0.612s] -- The CXX compiler identification is GNU 13.3.0
+[0.627s] -- Detecting C compiler ABI info
+[0.723s] -- Detecting C compiler ABI info - done
+[0.736s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.736s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.747s] -- Detecting CXX compiler ABI info
+[0.860s] -- Detecting CXX compiler ABI info - done
+[0.877s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.878s] -- Detecting CXX compile features
+[0.879s] -- Detecting CXX compile features - done
+[0.880s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.060s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.186s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.374s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.409s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.409s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.410s] -- Added test 'lint_cmake' to check CMake code style
+[1.410s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.413s] -- Added test 'xmllint' to check XML markup files
+[1.414s] -- Configuring done (1.2s)
+[1.418s] -- Generating done (0.0s)
+[1.420s] -- Build files have been written to: /home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration
+[1.429s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mhsp/Documents/thiago_ws/src/tiago_omni_base/omni_base_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration
+[1.429s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration -- -j8 -l8
+[1.482s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration -- -j8 -l8
+[1.485s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration
+[1.656s] -- Install configuration: ""
+[1.656s] -- Execute custom install script
+[1.656s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config/imu_sensor_broadcaster.yaml
+[1.656s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config/joint_state_broadcaster.yaml
+[1.656s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config/mobile_base_controller.yaml
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/launch/default_controllers.launch.py
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/ament_index/resource_index/package_run_dependencies/omni_base_controller_configuration
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/ament_index/resource_index/parent_prefix_path/omni_base_controller_configuration
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/ament_prefix_path.sh
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/ament_prefix_path.dsv
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/path.sh
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/path.dsv
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.bash
+[1.657s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.sh
+[1.658s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.zsh
+[1.663s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.dsv
+[1.663s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/package.dsv
+[1.664s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/ament_index/resource_index/packages/omni_base_controller_configuration
+[1.671s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/cmake/omni_base_controller_configurationConfig.cmake
+[1.676s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/cmake/omni_base_controller_configurationConfig-version.cmake
+[1.692s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/package.xml
+[1.721s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/omni_base_controller_configuration

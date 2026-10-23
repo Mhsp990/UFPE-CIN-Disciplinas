@@ -1,0 +1,27 @@
+[0.180s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors -- -j8 -l8
+[0.241s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors -- -j8 -l8
+[0.241s] Invoking command in '/home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors
+[0.260s] -- Install configuration: ""
+[0.261s] -- Execute custom install script
+[0.262s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/omni_base_laser_pipeline.yaml
+[0.277s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/omni_base_laser_pipeline_sim.yaml
+[0.288s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/omni_base_laser_pipeline_w_composition.yaml
+[0.314s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/pmb2_laser_pipeline.yaml
+[0.336s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/pmb2_laser_pipeline_sim.yaml
+[0.363s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/pmb2_laser_pipeline_w_composition.yaml
+[0.378s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/ament_index/resource_index/package_run_dependencies/tiago_laser_sensors
+[0.399s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/ament_index/resource_index/parent_prefix_path/tiago_laser_sensors
+[0.425s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.sh
+[0.450s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.dsv
+[0.476s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.sh
+[0.493s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.dsv
+[0.518s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.bash
+[0.550s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.sh
+[0.550s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.zsh
+[0.563s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.dsv
+[0.579s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.dsv
+[0.609s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/ament_index/resource_index/packages/tiago_laser_sensors
+[0.624s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig.cmake
+[0.639s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig-version.cmake
+[0.650s] -- Symlinking: /home/mhsp/Documents/thiago_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.xml
+[0.666s] Invoked command in '/home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mhsp/Documents/thiago_ws/build/tiago_laser_sensors
