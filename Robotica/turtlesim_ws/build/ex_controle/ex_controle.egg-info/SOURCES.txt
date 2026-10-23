@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+ex_controle/__init__.py
+ex_controle/control_thiago.py
+ex_controle/control_turtle.py
+ex_controle.egg-info/PKG-INFO
+ex_controle.egg-info/SOURCES.txt
+ex_controle.egg-info/dependency_links.txt
+ex_controle.egg-info/entry_points.txt
+ex_controle.egg-info/requires.txt
+ex_controle.egg-info/top_level.txt
+ex_controle.egg-info/zip-safe
+resource/ex_controle

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ex_controle.egg-info/PKG-INFO
+writing dependency_links to ex_controle.egg-info/dependency_links.txt
+writing entry points to ex_controle.egg-info/entry_points.txt
+writing requirements to ex_controle.egg-info/requires.txt
+writing top-level names to ex_controle.egg-info/top_level.txt
+reading manifest file 'ex_controle.egg-info/SOURCES.txt'
+writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+Installing cmd_turtle script to /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/ex_controle
+
+Installed /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle
+running symlink_data

@@ -1,0 +1,18 @@
+[1.462s] Invoking command in '/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/build --no-deps symlink_data
+[1.853s] running develop
+[2.109s] running egg_info
+[2.135s] writing ex_controle.egg-info/PKG-INFO
+[2.135s] writing dependency_links to ex_controle.egg-info/dependency_links.txt
+[2.136s] writing entry points to ex_controle.egg-info/entry_points.txt
+[2.136s] writing requirements to ex_controle.egg-info/requires.txt
+[2.136s] writing top-level names to ex_controle.egg-info/top_level.txt
+[2.183s] reading manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.184s] writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.208s] running build_ext
+[2.208s] Creating /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+[2.209s] Installing cmd_thiago script to /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/ex_controle
+[2.209s] Installing cmd_turtle script to /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/ex_controle
+[2.209s] 
+[2.209s] Installed /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle
+[2.210s] running symlink_data
+[2.250s] Invoked command in '/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/build --no-deps symlink_data

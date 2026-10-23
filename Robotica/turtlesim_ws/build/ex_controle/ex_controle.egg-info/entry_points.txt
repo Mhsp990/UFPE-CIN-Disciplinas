@@ -1,0 +1,3 @@
+[console_scripts]
+cmd_thiago = ex_controle.control_thiago:main
+cmd_turtle = ex_controle.control_turtle:main

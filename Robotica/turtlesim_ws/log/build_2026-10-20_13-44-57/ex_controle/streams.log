@@ -1,0 +1,22 @@
+[1.336s] Invoking command in '/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/build --no-deps symlink_data
+[1.682s] running develop
+[1.915s] running egg_info
+[1.915s] creating ex_controle.egg-info
+[1.939s] writing ex_controle.egg-info/PKG-INFO
+[1.939s] writing dependency_links to ex_controle.egg-info/dependency_links.txt
+[1.939s] writing requirements to ex_controle.egg-info/requires.txt
+[1.939s] writing top-level names to ex_controle.egg-info/top_level.txt
+[1.939s] writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.000s] reading manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.001s] writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.026s] running build_ext
+[2.026s] Creating /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+[2.027s] 
+[2.027s] Installed /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle
+[2.027s] running symlink_data
+[2.027s] creating /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/share/ament_index
+[2.027s] creating /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/share/ament_index/resource_index
+[2.027s] creating /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/share/ament_index/resource_index/packages
+[2.027s] symbolically linking /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/resource/ex_controle -> /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/share/ament_index/resource_index/packages
+[2.027s] symbolically linking /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/package.xml -> /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/share/ex_controle
+[2.059s] Invoked command in '/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Desktop/disciplina_robotica/turtlesim_ws/build/ex_controle/build --no-deps symlink_data
