@@ -17,6 +17,14 @@ class FibonnaciActionServer(Node):
 
     def execute_callback(self, goal_handle):
         #ESta versão nao tem feedback. Para ter feedback, deve ser explicitamente feito isso.
+        #Basicamente, está é uma versão "minima". Bem similar ao service.
+        #Para ser um completo, deve ter mecanismos para :
+        # Aceitar ou recusar um serviço.
+        # Possuir feedback
+        # Possuir a execução (este minimo tem)
+        # Algum mecnaismo de cancelamento preemptivo.
+        # OBS: Tanto action, quanto services, precisa criar na interface a action/service associada.
+        # No caso de action, é : REQUEST --- RESULT --- FEEDBACK
 
         self.get_logger().info("executing goal...")
         sequence = [0,1]

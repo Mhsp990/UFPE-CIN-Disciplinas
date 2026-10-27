@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-15323260c5aea421ce21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "tutorial_interfaces__py",
+					"jsonFile" : "directory-tutorial_interfaces__py-b1539532eb0b444e7708.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/tutorial_interfaces/tutorial_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tutorial_interfaces__rs",
+					"jsonFile" : "directory-tutorial_interfaces__rs-0b3c2df3496e63c92112.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/tutorial_interfaces/tutorial_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "tutorial_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tutorial_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tutorial_interfaces_egg-efaeab8b2cc9a93ef6a3.json",
+					"name" : "ament_cmake_python_build_tutorial_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_tutorial_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_tutorial_interfaces-90108a5046b95a5bb20f.json",
+					"name" : "ament_cmake_python_symlink_tutorial_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces-0726d1ba501edb14c3d9.json",
+					"name" : "tutorial_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__cpp-f5c23357a872241930c9.json",
+					"name" : "tutorial_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tutorial_interfaces__py::@f93b99e493d3861714db",
+					"jsonFile" : "target-tutorial_interfaces__py-fa9587b9bb7023b63010.json",
+					"name" : "tutorial_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_generator_c-bc5fce15afe8c7506cad.json",
+					"name" : "tutorial_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_generator_py-d8025afc2538227e0ccc.json",
+					"name" : "tutorial_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_generator_type_description-f7cf4943c57e26dc1dae.json",
+					"name" : "tutorial_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_c-4629c0a9c03e45aede13.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_cpp-b16222bf159084ec3789.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_fastrtps_c-1c83678b20d2b957c6de.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_fastrtps_cpp-945193ed88a17d5cc8b1.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_introspection_c-118324713f8e0a3c383a.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_introspection_cpp-dab7fd036d2cebf912fb.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tutorial_interfaces__rs::@44e45b75660098bc8b97",
+					"jsonFile" : "target-tutorial_interfaces__rs-ae1abd9f1a6e972a1a8b.json",
+					"name" : "tutorial_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces_s__rosidl_typesupport_c-bcfc49538a1e9e0fcf1c.json",
+					"name" : "tutorial_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces_s__rosidl_typesupport_fastrtps_c-224de5b5228843496dc5.json",
+					"name" : "tutorial_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces_s__rosidl_typesupport_introspection_c-20d85bf11fa7c658bf70.json",
+					"name" : "tutorial_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces_uninstall-0fb327bd232fb00de187.json",
+					"name" : "tutorial_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1f916759cea513860f31.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/tutorial_interfaces",
+		"source" : "/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/tutorial_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

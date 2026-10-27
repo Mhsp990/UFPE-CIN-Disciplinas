@@ -1,0 +1,10 @@
+#GOAL : What the client asks the server to do, via "custom" parameters
+int32 target
+bool simulate_failure
+---
+#RESULT : Returned once, after success, cancellation, or abort.
+int32 reached
+string message
+---
+#FEEDBACK : Published repeatedly while the goal is being executed
+int32 current

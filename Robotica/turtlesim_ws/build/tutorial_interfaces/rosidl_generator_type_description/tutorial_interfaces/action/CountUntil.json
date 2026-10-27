@@ -1,0 +1,542 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tutorial_interfaces/action/CountUntil",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tutorial_interfaces/action/CountUntil_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tutorial_interfaces/action/CountUntil_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tutorial_interfaces/action/CountUntil_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tutorial_interfaces/action/CountUntil_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tutorial_interfaces/action/CountUntil_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tutorial_interfaces/action/CountUntil_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_Feedback",
+        "fields": [
+          {
+            "name": "current",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_Goal",
+        "fields": [
+          {
+            "name": "target",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "simulate_failure",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_Result",
+        "fields": [
+          {
+            "name": "reached",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "tutorial_interfaces/action/CountUntil_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil",
+      "hash_string": "RIHS01_e94a995cb4a48dc283b08a33e3d6c3b5ec96fee42e531b813e58ca173f445e90"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_Feedback",
+      "hash_string": "RIHS01_1524b421de7d1c072e6ee51d40990281b550302cdc92ead00cbff65de3c09c91"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_FeedbackMessage",
+      "hash_string": "RIHS01_394a1ee5862786b52ca7cd875a2b93a8118304e5a6ac7df19449033c4b1538c6"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_GetResult",
+      "hash_string": "RIHS01_1a824501ef2aeeab06afea3e1c2209c89acd946cedb002a14435576c6186f7e9"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_GetResult_Event",
+      "hash_string": "RIHS01_4deb4baaad00a2ed976dd30bb1af895eba0059410236a7457859bdceea9bbb2f"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_GetResult_Request",
+      "hash_string": "RIHS01_2e6c661da0726d0e2f074cefb67da243c49068271ea78f179d2526a6a688892a"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_GetResult_Response",
+      "hash_string": "RIHS01_f06b88572c0c24a3e731f8373f98e290c8b19002b56dec19877b69f67463373f"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_Goal",
+      "hash_string": "RIHS01_56b918d7fa4090666acc276f53fd9e5783bc6e3c0b63dce296d867a7f0c652c0"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_Result",
+      "hash_string": "RIHS01_1d58bab3fdc53d07c3905cc7d761738ef6c5e19b65abf09f5c0b189b03ebf809"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_SendGoal",
+      "hash_string": "RIHS01_0fb4d44a86dd38a58d2234cf5badf357d684fe38b3cf9858462a76a9446d7b68"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Event",
+      "hash_string": "RIHS01_ee66944ac4e93fad0b7a334ed6a6646ce8648deeb27495edf02242152c436183"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Request",
+      "hash_string": "RIHS01_2f3f304deca68ad543095afd9c16632422ee4429ce7c8b773c3c3c66f24791e0"
+    },
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_SendGoal_Response",
+      "hash_string": "RIHS01_37c665158e166852def1260185c54823984a95da2788d51947d82bce05c42f79"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

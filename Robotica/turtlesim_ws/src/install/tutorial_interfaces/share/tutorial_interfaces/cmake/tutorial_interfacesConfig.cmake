@@ -1,0 +1,1 @@
+/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig.cmake

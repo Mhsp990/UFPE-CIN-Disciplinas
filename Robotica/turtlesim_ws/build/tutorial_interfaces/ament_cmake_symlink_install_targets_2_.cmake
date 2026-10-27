@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "tutorial_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/tutorial_interfaces")

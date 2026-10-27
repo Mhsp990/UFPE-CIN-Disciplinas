@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tutorial_interfaces/action/CountUntil_Feedback",
+      "fields": [
+        {
+          "name": "current",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tutorial_interfaces/action/CountUntil_Feedback",
+      "hash_string": "RIHS01_1524b421de7d1c072e6ee51d40990281b550302cdc92ead00cbff65de3c09c91"
+    }
+  ]
+}

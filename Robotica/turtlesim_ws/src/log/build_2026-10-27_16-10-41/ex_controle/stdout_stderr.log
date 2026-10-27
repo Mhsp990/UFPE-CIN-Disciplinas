@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating ex_controle.egg-info
+writing ex_controle.egg-info/PKG-INFO
+writing dependency_links to ex_controle.egg-info/dependency_links.txt
+writing entry points to ex_controle.egg-info/entry_points.txt
+writing requirements to ex_controle.egg-info/requires.txt
+writing top-level names to ex_controle.egg-info/top_level.txt
+writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+reading manifest file 'ex_controle.egg-info/SOURCES.txt'
+writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+Installing cmd_thiago script to /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/ex_controle
+Installing cmd_turtle script to /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/ex_controle
+
+Installed /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle
+running symlink_data
+creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index
+creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index/resource_index
+creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index/resource_index/packages
+symbolically linking /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/resource/ex_controle -> /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index/resource_index/packages
+symbolically linking /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/package.xml -> /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ex_controle

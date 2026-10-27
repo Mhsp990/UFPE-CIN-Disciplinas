@@ -1,0 +1,31 @@
+É interessante que a criação de mensagens, serviços e ações customizadas devem ser feitas em um pacote criado exclusivamente para isso.
+Este pacote deve ser criado em c++ (ament_cmake)
+
+Toda vez que criar um serviço ou action, deve-se criar um arquivo .srv ou .action associado.
+Além disso, é necessário acessar o arquivo "CMakeList.txt" e adicionar cada um deles neste arquivo.
+#       e, também, o package.xml
+
+Services terão
+REQUEST
+---
+RESULT
+
+
+Action files terão
+REQUEST
+---
+RESULT
+---
+FEEDBACK
+
+
+Desta forma, quando as funções associadas fazer __algo.REQUEST, estão associando o campo REQUEST, etc.
+
+
+Actions para serem "minimos" devem ter apenas a implementação (execução), se assemelhando a um service.
+#Para ser um completo, deve ter mecanismos para :
+        # Aceitar ou recusar um serviço.
+        # Possuir feedback
+        # Possuir a execução (este minimo tem)
+        # Algum mecnaismo de cancelamento preemptivo.
+        # OBS: Tanto action, quanto services, precisa criar na interface a action/service associada.

@@ -1,0 +1,25 @@
+[2.024s] Invoking command in '/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/build --no-deps symlink_data
+[2.378s] running develop
+[2.611s] running egg_info
+[2.612s] creating ex_controle.egg-info
+[2.634s] writing ex_controle.egg-info/PKG-INFO
+[2.634s] writing dependency_links to ex_controle.egg-info/dependency_links.txt
+[2.634s] writing entry points to ex_controle.egg-info/entry_points.txt
+[2.635s] writing requirements to ex_controle.egg-info/requires.txt
+[2.635s] writing top-level names to ex_controle.egg-info/top_level.txt
+[2.635s] writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.679s] reading manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.680s] writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+[2.703s] running build_ext
+[2.703s] Creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+[2.703s] Installing cmd_thiago script to /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/ex_controle
+[2.704s] Installing cmd_turtle script to /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/ex_controle
+[2.705s] 
+[2.705s] Installed /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle
+[2.705s] running symlink_data
+[2.705s] creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index
+[2.705s] creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index/resource_index
+[2.705s] creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index/resource_index/packages
+[2.705s] symbolically linking /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/resource/ex_controle -> /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ament_index/resource_index/packages
+[2.705s] symbolically linking /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/package.xml -> /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/share/ex_controle
+[2.740s] Invoked command in '/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/ex_controle/build --no-deps symlink_data

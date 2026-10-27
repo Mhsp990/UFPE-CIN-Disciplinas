@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tutorial_interfaces/interfaces/action/CountUntil.action
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "GOAL : What the client asks the server to do, via \"custom\" parameters")
+    struct CountUntil_Goal {
+      int32 target;
+
+      boolean simulate_failure;
+    };
+    @verbatim (language="comment", text=
+      "RESULT : Returned once, after success, cancellation, or abort.")
+    struct CountUntil_Result {
+      int32 reached;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "FEEDBACK : Published repeatedly while the goal is being executed")
+    struct CountUntil_Feedback {
+      int32 current;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/src/build/tutorial_interfaces/rosidl_generator_rs/tutorial_interfaces/rust/build.rs

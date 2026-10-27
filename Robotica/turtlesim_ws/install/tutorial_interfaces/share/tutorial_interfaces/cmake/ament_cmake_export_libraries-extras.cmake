@@ -1,0 +1,1 @@
+/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/tutorial_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
