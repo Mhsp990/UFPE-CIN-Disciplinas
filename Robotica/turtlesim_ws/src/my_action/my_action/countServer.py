@@ -60,6 +60,8 @@ class CountServerNode(Node):
 def main(args=None):
     rclpy.init(args=args)
     count_server_node = CountServerNode()
+    rclpy.spin(count_server_node)
+    rclpy.shutdown()
 
 
 if __name__ == "__main__":
