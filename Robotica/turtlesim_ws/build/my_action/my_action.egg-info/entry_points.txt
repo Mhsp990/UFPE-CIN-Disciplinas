@@ -1,0 +1,3 @@
+[console_scripts]
+count_client = my_action.countClient:main
+count_server = my_action.countServer:main

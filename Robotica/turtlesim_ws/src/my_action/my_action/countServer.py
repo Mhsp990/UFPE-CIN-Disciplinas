@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer
-from tutorial_interfaces.interfaces.action import CountUntil
+from tutorial_interfaces.action import CountUntil
 import time
 
 
@@ -18,7 +18,7 @@ class CountServerNode(Node):
             self,
             CountUntil, #Tipo
             "count_until", #Nome do action
-            execute_callback= self.execute_count_until #Lembre de por este execute_callback = callable. Este é o callback de execute.
+            execute_callback= self.execute_count_until #Este é o callback de execute, que realmente executa a ação
             #Um action mais completo PODERIA ter, por exmeplo, um callback para quando é cancelado, etc.
         )
 
@@ -46,6 +46,7 @@ class CountServerNode(Node):
         #Execute a "ação"
         while result.reached < target:
             time.sleep(0.5) #Simulando um processamento.
+            self.get_logger().info("Increasing reached valued")
             result.reached += 1
 
         #Para finalizar a ação, deve-se setar (conforme o contexto):

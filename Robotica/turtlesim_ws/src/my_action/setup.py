@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'count_server = my_action.countServer:main',
+            'count_client = my_action.countClient:main'
         ],
     },
 )
