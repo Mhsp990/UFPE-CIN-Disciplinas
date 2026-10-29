@@ -58,7 +58,12 @@ class CountClient(Node):
 
     def result_callback(self, future):
         #Gatilhando quando a ação é finalizada, retornando o resultado. Pode ter sido por temrinar a ação, cancelada, abortada.
-        pass
+        response = future.result()
+        result = response.result
+
+        self.get_logger().info(f"Resposta.reached é : {result.reached}")
+        self.get_logger().info(f"Resposta.message é : {result.message}")
+
 
 
 
