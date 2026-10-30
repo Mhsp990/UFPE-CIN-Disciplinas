@@ -1,0 +1,18 @@
+[1.846s] Invoking command in '/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/install/my_action/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action/build --no-deps symlink_data
+[2.272s] running develop
+[2.552s] running egg_info
+[2.579s] writing my_action.egg-info/PKG-INFO
+[2.579s] writing dependency_links to my_action.egg-info/dependency_links.txt
+[2.579s] writing entry points to my_action.egg-info/entry_points.txt
+[2.579s] writing requirements to my_action.egg-info/requires.txt
+[2.580s] writing top-level names to my_action.egg-info/top_level.txt
+[2.635s] reading manifest file 'my_action.egg-info/SOURCES.txt'
+[2.636s] writing manifest file 'my_action.egg-info/SOURCES.txt'
+[2.663s] running build_ext
+[2.663s] Creating /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/install/my_action/lib/python3.12/site-packages/my-action.egg-link (link to .)
+[2.664s] Installing count_client script to /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/install/my_action/lib/my_action
+[2.664s] Installing count_server script to /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/install/my_action/lib/my_action
+[2.664s] 
+[2.665s] Installed /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action
+[2.665s] running symlink_data
+[2.706s] Invoked command in '/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/install/my_action/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mhsp/Documents/UFPE-CIN-Disciplinas/Robotica/turtlesim_ws/build/my_action/build --no-deps symlink_data

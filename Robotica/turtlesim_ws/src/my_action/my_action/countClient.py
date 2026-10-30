@@ -19,6 +19,8 @@ class CountClient(Node):
             #Não tem feedback, reação a resultado, cancelado, reação a resposta do goal request, etc.
         )
 
+        
+
         self.target = 5
 
 
@@ -31,7 +33,9 @@ class CountClient(Node):
         goal = CountUntil.Goal() #Apenas a parte goal, neste caso
         goal.target = self.target
 
-        future = self.client.send_goal_async(goal)
+        future = self.client.send_goal_async(goal, 
+                                             feedback_callback= self.feedback_callback) #Isto que faz ter feedback e reagir.
+        
 
         # print("Awaiting for goal to be accepted") #Isso daqui está esperando o goal ser ACEITO, pois future recebe a aceitação ou recusa do goal
         # rclpy.spin_until_future_complete(self, future)
@@ -54,7 +58,7 @@ class CountClient(Node):
         #Como foi aceito, vamos pedir o resultado também. Ou seja, reagir ao resultado.
         future = goal_handle.get_result_async()
         future.add_done_callback(self.result_callback) #Chamado quando há um resultado, ou por terminar a action, cancelado, abortado, etc.
-        #OBS : É possível cria rum feedback específico para quando é cancelado, etc.
+        #OBS : É possível cria rum feedback específico para quando é cancelado, etce
 
     def result_callback(self, future):
         #Gatilhando quando a ação é finalizada, retornando o resultado. Pode ter sido por temrinar a ação, cancelada, abortada.
@@ -64,6 +68,9 @@ class CountClient(Node):
         self.get_logger().info(f"Resposta.reached é : {result.reached}")
         self.get_logger().info(f"Resposta.message é : {result.message}")
 
+    def feedback_callback(self, callback_msg):
+        #Este metodo é gatilhado toda vez que o callback for detectado
+        self.get_logger().info(f'Feedback callback msg received. Value is : {callback_msg.feedback.current}')
 
 
 

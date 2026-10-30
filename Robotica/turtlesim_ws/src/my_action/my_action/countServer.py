@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from rclpy.action import ActionServer
+from rclpy.action import ActionServer, GoalResponse
 from tutorial_interfaces.action import CountUntil
 import time
 
@@ -18,8 +18,9 @@ class CountServerNode(Node):
             self,
             CountUntil, #Tipo
             "count_until", #Nome do action
-            execute_callback= self.execute_count_until #Este é o callback de execute, que realmente executa a ação
+            execute_callback= self.execute_count_until, #Este é o callback de execute, que realmente executa a ação
             #Um action mais completo PODERIA ter, por exmeplo, um callback para quando é cancelado, etc.
+            goal_callback=self.handle_goal_received #Usado para decidir se vai aceitar ou recusar o goal.
         )
 
     def execute_count_until(self, goal_handle):
@@ -43,18 +44,38 @@ class CountServerNode(Node):
         result = CountUntil.Result()
         result.reached = 0
 
+        #Criando o feedback para o cliente
+        feedback_msg = CountUntil.Feedback()
+
+
         #Execute a "ação"
         while result.reached < target:
             time.sleep(0.5) #Simulando um processamento.
             self.get_logger().info("Increasing reached valued")
             result.reached += 1
 
+            #Publica o feedback.
+            feedback_msg.current = result.reached
+            goal_handle.publish_feedback(feedback_msg)
+
         #Para finalizar a ação, deve-se setar (conforme o contexto):
         result.message = "Target Reached" #É um dos campos customs do arquivo .action
         goal_handle.succeed()
         return result
 
+    def handle_goal_received(self,goal_request):
+        #Gatilhado quando um goal é recebido. Decide se vai aceitar ou recusar.
+        #Se ele não fosse implementado, teoricamente sempre seria aceitado, gatilhando o goal response callback do cliente automaticamente.
+        time.sleep(10.0) # Para simular o processamento da resposta (para nao ser instantaneo)
+        if goal_request.target < 10:
+            response = GoalResponse.ACCEPT
+            self.get_logger().info(f'Goal accepted with target : {goal_request.target}')
+        else:
+            response = GoalResponse.REJECT
+            self.get_logger().info(f'Goal REJECTED, because target {goal_request.target} is > 10')
 
+        return response
+        
 
 
 
